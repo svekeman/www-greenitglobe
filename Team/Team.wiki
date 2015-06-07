@@ -1,0 +1,76 @@
+{{htmlhead: 
+<style type="text/css">
+    .title-logo { background-image: none; padding-top: 0;}
+    .imageborder { max-width: 154px;-webkit-filter: grayscale(100%); filter: grayscale(100%); }
+    img.alignleft + p, img.alignright + p {margin-top: 0px;line-height: 36px;}
+.alignleft {margin-right: 40px;}
+.alignright {margin-left: 40px;}
+</style>
+}}
+@col 12
+    {{div: class=title-logo animated fadeInDown animation-delay-5 }} 
+    {{html: 
+    <span>Green IT Gateway</span> Team
+    }}
+    {{div}}
+@colend
+@row row
+    @col 12
+    {{html: 
+        <h2 class="right-line">Kristof De Spiegeleer</h2>
+        <img src="/$$space/.files/img/team/Kristof.png" alt="" class="imageborder alignleft">    
+        <p>Kristof De Spiegeleer is a dedicated entrepreneur with an impressive track record in datacenter optimisation technology.
+        Kristof is a respected visionary who is surrounded by a team of datacenter veterans, cloud computing experts and experienced software engineers. 
+        His proven track record has given him substantial credibility and long standing relations with international VC's and industry leaders.</p>
+    }}
+    @colend
+    @col 12
+    {{html:
+        <h2 class="right-line">Willem Hendrickx</h2>
+        <img src="/$$space/.files/img/team/Willem.jpg" alt="" class="imageborder alignright">
+        <p>Hendrickx brings to Green IT Globe more than 20 years of sales and business development experience, and a track record of success in growing businesses through the development and execution of new business models, expanding distribution channels and executing global go-to-market strategies. In his role as the head of EMEA at Riverbed Technology, Hendrickx is responsible for driving growth across the EMEA region as Riverbed continues to expand its global operations.</p>
+    }}
+    @colend
+    @col 12
+    {{html:
+        <h2 class="right-line">Sacha Vekeman</h2>
+        <img src="/$$space/.files/img/team/Sacha.png" alt="" class="imageborder alignleft">
+        <p>Sacha Vekeman leads the cloud solution division and directly supports our international offices in Belgium, Caïro and Dubai to successfully deploy converged infrastructure and cloud solutions with local partners and global customers. Vekeman has an international background in business development and channel sales, and has worked with world-class datacenter and telecom players in Europe, Asia and the Middle-East.</p>
+    }}
+    @colend
+    @col 12
+    {{html:
+        <h2 class="right-line">Adnan Fatayerji</h2>
+        <img src="/$$space/.files/img/team/Adnan.jpg" alt="" class="imageborder alignright">
+        <p>Fatayerji is responsible for expanding and raising the Green IT Globe business and presence in the Middle-East and driving the company’s go-to-market strategy across the region through our headquarters in Dubai. Fatayerji’s deep understanding of our key market is instrumental in elevating the Green IT Globe brand and increases demand for our solutions to drive revenue growth across the entire product portfolio.</p>        
+    }}
+    @colend
+    @col 12
+    {{html:
+        <h2 class="right-line">Jan De Landtsheer</h2>
+        <img src="/$$space/.files/img/team/Jan.jpg" alt="" class="imageborder alignleft">
+        <p>Jan De Landtsheer has worked for almost 20 years in partnership with Kristof De Spiegeleer.
+Jan is the genius behind many of the inventions created by Incubaid and is active in everything to do with systems ranging from Linux, Solaris, storage, networking and many other related areas.
+Jan is a master architect and master researcher at Incubaid and cofounded Dedigate, DCT, Q-layer, Amplidata, CloudFounders and Awingu.</p>
+    }}
+    @colend
+    @col 12
+    {{html:
+        <h2 class="right-line">Sophie De Maesschalck</h2>
+        <img src="/$$space/.files/img/team/Sophie.jpg" alt="" class="imageborder alignright">
+        <p>Prior to joining Green IT Globe, she co-founded Incubaid and was CFO and Qlayer, the datacenter and storage virtualization software company which was sold to Sun Microsystems (now Oracle) in 2009. Before that, she worked as consultant for Bain & Company, and as a design engineer at Proximus, the leading mobile operator in Belgium.
+        Sophie holds a PhD in applied sciences, electro-technical engineering, and an MSc degree in electro-technical engineering, option telecommunications from Ghent University.</p>
+    }}
+    @colend
+    @col 12
+    {{html:
+        <h2 class="right-line">Pierre Van Hoorebeke</h2>
+        <img src="/$$space/.files/img/team/Pierre.jpg" alt="" class="imageborder alignleft">
+        <p>Pierre Van Hoorebeke provides specialized legal advice to Green IT Globe and the portfolio of Incubaid companies, including in the field of corporate, M&A and venture capital.
+        Prior to joining Incubaid, Pierre was a corporate and M&A lawyer in top tier law firms (Laga and Baker & McKenzie (Brussels)), providing distinctive legal advice to various leading international corporations. Pierre studied law at the Ghent University and holds a master degree in European Law from the Brussels University (U.L.B.).</p>
+       }}
+    @colend
+@rowend
+
+
+

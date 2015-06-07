@@ -1,0 +1,138 @@
+@usedefault
+{{htmlhead:
+<style type="text/css">
+    .mTop40 { margin-top: 0;}
+    nav + .container { width: auto !important; margin: 0; padding: 0;}
+    .carousel-razon .carousel-img {float: right;margin-right: 135px;}
+    .carousel-razon .carousel-img img {margin-top: 55px;margin-right: 5px;  max-width: 300px;}
+</style>
+}}
+{{html:
+<section class="carousel-section" style="margin-bottom: 0;">
+    <div id="carousel-example-generic" class="carousel carousel-razon slide" data-ride="carousel" data-interval="5000">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+}}
+        {{div: class=carousel-inner}}
+            {{div2: class=item active}}
+                @block
+                    @row row
+                        @col 6 col-sm-7
+                            {{div3: class=carousel-caption}}
+                                {{div4: class=carousel-text}}
+                                {{html: 
+                                   <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">Green IT Gateway</h1>
+                                   <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">Welcome to Green IT Gateway,</h2>
+                                   <h3 class="animated fadeInUpBig animation-delay-17">The home to the vision of taking IT to the next level.
+Green IT Gateway is the solutions provider owned and driven by the international cloud solutions incubator Incubaid.</h3>
+                                }}
+                               {{div4}}
+                            {{div3}}
+                        @colend
+                        {{div3: class=col-md-6 col-sm-5 hidden-xs carousel-img-wrap}}
+                            {{div4: class=carousel-img}}
+                            {{html: 
+                                <img src="/$$space/.files/img/slider1.png" class="img-responsive animated bounceInUp animation-delay-3" alt="Image">
+                            }}
+                            {{div4}}
+                        {{div3}}
+                    @rowend
+                @blockend
+            {{div2}} 
+            {{div2: class=item}}
+                @block
+                    @row row
+                        @col 6 col-sm-7
+                            {{div3: class=carousel-caption}}
+                                {{div4: class=carousel-text}}
+                                {{html: 
+                                   <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">Change the IT Mindset</h1>
+                                   <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">Green IT Gateway sees a need to perceive IT</h2>
+                                   
+                                   <h3 class="animated fadeInUpBig animation-delay-17">A mind change in how companies are dealing with IT today. IT has become the most important element next to electricity and oil in our economy.
+However, IT has become for many a hurdle and sometimes even a threat, since IT has become too complex to use and to understand.</h3>
+                                }}
+                               {{div4}}
+                            {{div3}}
+                        @colend
+                        {{div3: class=col-md-6 col-sm-5 hidden-xs carousel-img-wrap}}
+                            {{div4: class=carousel-img}}
+                            {{html:
+                                <img src="/$$space/.files/img/slider2.png" class="img-responsive animated bounceInUp animation-delay-3" alt="Image">
+                            }}
+                            {{div4}}
+                        {{div3}}
+                    @rowend
+                @blockend
+            {{div2}}
+            {{div2: class=item}}
+                @block
+                    @row row
+                        @col 6 col-sm-7
+                            {{div3: class=carousel-caption}}
+                                {{div4: class=carousel-text}}
+                                {{html: 
+                                   <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">Make IT as Energy</h1>
+                                   <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">What if we could use Green IT just like electricity, </h2>
+                                   <h3 class="animated fadeInUpBig animation-delay-17">Where we can consume it by the unit and pay for what we use.
+Green IT Gateway is bringing a series of innovations that help others to run greener and more efficient IT!</h3>
+                                }}
+                               {{div4}}
+                            {{div3}}
+                        @colend
+                        {{div3: class=col-md-6 col-sm-5 hidden-xs carousel-img-wrap}}
+                            {{div4: class=carousel-img}}
+                            {{html:
+                                <img src="/$$space/.files/img/slider3.png" class="img-responsive animated bounceInUp animation-delay-3" alt="Image">
+                                }}
+                            {{div4}}
+                        {{div3}}
+                    @rowend
+                @blockend
+            {{div2}}
+        {{div}}
+{{html: 
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</section> <!-- carousel -->
+
+
+
+<section class="section-lines" style="margin-bottom: 0;">
+}}
+    @block
+        @row row
+            @col 6 
+                {{div: class=tab-content}}
+                    {{div2: class=tab-pane active video1 | id=desktop}}
+                    {{html: 
+                    <iframe width="500" height="281" src="//player.vimeo.com/video/116544590?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen="" allowfullscreen=""></iframe>
+                    }}
+                    {{div2}}                    
+                {{div}}
+            @colend
+            @col 5
+                {{div: class=home-devices}}
+                    h3. Green IT Gateway’s vision
+                    Green IT Gateway’s vision is to deliver IT in a green, secure and pay-as-you-use method, similar to the way we currently consume electricity! The Green IT Gateway technology ecosystem is the first credible platform that can make this vision a reality.
+Green IT Gateway`s founders see a need to perceive IT in another way, a mind change in how companies are dealing with IT today. IT has become the most important element next to electricity and oil in our economy, since it helps us humans to make our lives easier, better organised and more efficient.
+                {{div}}
+            @colend
+            
+        @rowend
+    @blockend
+    {{html: 
+</section>
+}}
+
+

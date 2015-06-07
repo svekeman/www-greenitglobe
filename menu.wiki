@@ -1,0 +1,36 @@
+{{htmlhead:
+<style type="text/css">
+.navbar-default .navbar-brand { background-image: none; padding-left: 0;text-transform: none;}
+</style>
+}}
+{{html:
+<nav class="navbar navbar-static-top navbar-default navbar-header-full navbar-dark" role="navigation" id="header">
+    <div class="container">
+    
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand hidden-lg hidden-md hidden-sm active" href="index.html">Green IT <span> Gateway</span></a>
+        </div>        
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="/$$space/">Home</a>
+                </li>                
+                <li>
+                    <a href="/$$space/Why Green IT Gateway">Why Green IT Gateway</a>
+                </li>
+                <!--<li>
+                    <a href="/$$space/Team">Team</a>
+                </li>-->
+                <li>
+                    <a href="/$$space/Contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+	
+}}
