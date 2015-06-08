@@ -1,138 +1,645 @@
-@usedefault
-{{htmlhead:
-<style type="text/css">
-    .mTop40 { margin-top: 0;}
-    nav + .container { width: auto !important; margin: 0; padding: 0;}
-    .carousel-razon .carousel-img {float: right;margin-right: 135px;}
-    .carousel-razon .carousel-img img {margin-top: 55px;margin-right: 5px;  max-width: 300px;}
-</style>
-}}
 {{html:
-<section class="carousel-section" style="margin-bottom: 0;">
-    <div id="carousel-example-generic" class="carousel carousel-razon slide" data-ride="carousel" data-interval="5000">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+    <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>The Project | Home</title>
+<meta name="description" content="The Project a Bootstrap-based, Responsive HTML5 Template">
+<meta name="author" content="htmlcoder.me">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="/$$space/.files/images/favicon.ico">
 }}
-        {{div: class=carousel-inner}}
-            {{div2: class=item active}}
-                @block
-                    @row row
-                        @col 6 col-sm-7
-                            {{div3: class=carousel-caption}}
-                                {{div4: class=carousel-text}}
-                                {{html: 
-                                   <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">Green IT Gateway</h1>
-                                   <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">Welcome to Green IT Gateway,</h2>
-                                   <h3 class="animated fadeInUpBig animation-delay-17">The home to the vision of taking IT to the next level.
-Green IT Gateway is the solutions provider owned and driven by the international cloud solutions incubator Incubaid.</h3>
-                                }}
-                               {{div4}}
-                            {{div3}}
-                        @colend
-                        {{div3: class=col-md-6 col-sm-5 hidden-xs carousel-img-wrap}}
-                            {{div4: class=carousel-img}}
-                            {{html: 
-                                <img src="/$$space/.files/img/slider1.png" class="img-responsive animated bounceInUp animation-delay-3" alt="Image">
-                            }}
-                            {{div4}}
-                        {{div3}}
-                    @rowend
-                @blockend
-            {{div2}} 
-            {{div2: class=item}}
-                @block
-                    @row row
-                        @col 6 col-sm-7
-                            {{div3: class=carousel-caption}}
-                                {{div4: class=carousel-text}}
-                                {{html: 
-                                   <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">Change the IT Mindset</h1>
-                                   <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">Green IT Gateway sees a need to perceive IT</h2>
-                                   
-                                   <h3 class="animated fadeInUpBig animation-delay-17">A mind change in how companies are dealing with IT today. IT has become the most important element next to electricity and oil in our economy.
-However, IT has become for many a hurdle and sometimes even a threat, since IT has become too complex to use and to understand.</h3>
-                                }}
-                               {{div4}}
-                            {{div3}}
-                        @colend
-                        {{div3: class=col-md-6 col-sm-5 hidden-xs carousel-img-wrap}}
-                            {{div4: class=carousel-img}}
-                            {{html:
-                                <img src="/$$space/.files/img/slider2.png" class="img-responsive animated bounceInUp animation-delay-3" alt="Image">
-                            }}
-                            {{div4}}
-                        {{div3}}
-                    @rowend
-                @blockend
-            {{div2}}
-            {{div2: class=item}}
-                @block
-                    @row row
-                        @col 6 col-sm-7
-                            {{div3: class=carousel-caption}}
-                                {{div4: class=carousel-text}}
-                                {{html: 
-                                   <h1 class="animated fadeInDownBig animation-delay-7 carousel-title">Make IT as Energy</h1>
-                                   <h2 class="animated fadeInDownBig animation-delay-5  crousel-subtitle">What if we could use Green IT just like electricity, </h2>
-                                   <h3 class="animated fadeInUpBig animation-delay-17">Where we can consume it by the unit and pay for what we use.
-Green IT Gateway is bringing a series of innovations that help others to run greener and more efficient IT!</h3>
-                                }}
-                               {{div4}}
-                            {{div3}}
-                        @colend
-                        {{div3: class=col-md-6 col-sm-5 hidden-xs carousel-img-wrap}}
-                            {{div4: class=carousel-img}}
-                            {{html:
-                                <img src="/$$space/.files/img/slider3.png" class="img-responsive animated bounceInUp animation-delay-3" alt="Image">
-                                }}
-                            {{div4}}
-                        {{div3}}
-                    @rowend
-                @blockend
-            {{div2}}
-        {{div}}
-{{html: 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-</section> <!-- carousel -->
-
-
-
-<section class="section-lines" style="margin-bottom: 0;">
-}}
-    @block
-        @row row
-            @col 6 
-                {{div: class=tab-content}}
-                    {{div2: class=tab-pane active video1 | id=desktop}}
-                    {{html: 
-                    <iframe width="500" height="281" src="//player.vimeo.com/video/116544590?title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen="" allowfullscreen=""></iframe>
-                    }}
-                    {{div2}}                    
-                {{div}}
-            @colend
-            @col 5
-                {{div: class=home-devices}}
-                    h3. Green IT Gateway’s vision
-                    Green IT Gateway’s vision is to deliver IT in a green, secure and pay-as-you-use method, similar to the way we currently consume electricity! The Green IT Gateway technology ecosystem is the first credible platform that can make this vision a reality.
-Green IT Gateway`s founders see a need to perceive IT in another way, a mind change in how companies are dealing with IT today. IT has become the most important element next to electricity and oil in our economy, since it helps us humans to make our lives easier, better organised and more efficient.
-                {{div}}
-            @colend
+{{hasbootstrapcss}}
+{{hasbootstrapjs}}
+{{html:
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+<link href="/$$space/.files/bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="/$$space/.files/fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+<link href="/$$space/.files/fonts/fontello/css/fontello.css" rel="stylesheet">
+<link href="/$$space/.files/plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+<link href="/$$space/.files/plugins/rs-plugin/css/settings.css" rel="stylesheet">
+<link href="/$$space/.files/css/animations.css" rel="stylesheet">
+<link href="/$$space/.files/plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="/$$space/.files/plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+<link href="/$$space/.files/plugins/hover/hover-min.css" rel="stylesheet">
+<link href="/$$space/.files/css/style.css" rel="stylesheet" >
+<link href="/$$space/.files/css/skins/light_blue.css" rel="stylesheet">
+<link href="/$$space/.files/css/custom.css" rel="stylesheet">
+<style type="text/css">
+  .tp-caption img {margin: 0 auto;}
+</style>
+</head>
+<body class="no-trans front-page transparent-header ">
+<div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+<div class="page-wrapper">
+  <div class="header-container">    
+    <header class="header  fixed   clearfix">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="header-left clearfix">
+              <div id="logo" class="logo"> <a href="/$$space/.files/index.html"><img width="130" id="logo_img" src="/$$space/.files/images/logo.png" alt="The Project"></a> </div>              
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="header-right clearfix"> 
+              <div class="main-navigation  animated with-dropdown-buttons">
+                <nav class="navbar navbar-default" role="navigation">
+                  <div class="container-fluid">
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                    </div>
+                    <div style="padding:0" class="collapse navbar-collapse" id="navbar-collapse-1">
+                      <ul class="nav navbar-nav pull-right ">
+                        <li class="active"> <a href="/$$space/.files/index.html">Home</a></li>
+                        <li class="smooth-scroll"> <a href="#page-start">Solutions</a></li>
+                        <li class="smooth-scroll"> <a href="#benefits">Benefits</a></li>
+                        <li class="smooth-scroll"> <a href="#technology">Technology</a></li>
+                        <li class="smooth-scroll"> <a href="#team">Company</a></li>
+                        <li class="smooth-scroll"> <a href="#footer">Contact us</a></li>
+                        <!--<li class="dropdown "> <a href="/$$space/.files/index-shop.html" class="dropdown-toggle" data-toggle="dropdown">Solutions</a>
+                          <ul class="dropdown-menu">
+                            <li ><a href="/$$space/.files/index-shop.html">Shop Home 1</a></li>
+                            <li ><a href="/$$space/.files/index-shop-2.html">Shop Home 2</a></li>
+                            <li ><a href="/$$space/.files/shop-listing-4col.html">Grid - 4 Columns</a></li>
+                            <li ><a href="/$$space/.files/shop-listing-3col.html">Grid - 3 Columns</a></li>
+                            <li ><a href="/$$space/.files/shop-listing-2col.html">Grid - 2 Columns</a></li>
+                            <li ><a href="/$$space/.files/shop-listing-sidebar.html">Grid - With Sidebar</a></li>
+                          </ul>
+                        </li>-->
+                        
+                      </ul>
+                      <!--
+                      <div class="header-dropdown-buttons">
+                            <a href="/$$space/.files/mailto:theproject@info.com" class="btn btn-sm hidden-xs btn-default">Contact Us <i class="fa fa-envelope-o pl-5"></i></a>
+                            <a href="/$$space/.files/mailto:theproject@info.com" class="btn btn-lg visible-xs btn-block btn-default">Contact Us <i class="fa fa-envelope-o pl-5"></i></a>
+                        </div>-->                      
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div class="banner clearfix">
+    <div class="slideshow">
+      <div class="slider-banner-container">
+        <div class="slider-banner-fullscreen">
+          <ul class="slides">
+            <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title="Powerful Bootstrap Template"> <img src="/$$space/.files/images/slider-fullscreen-slide-1.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+              <div class="tp-caption dark-translucent-bg"
+                                    data-x="center"
+                                    data-y="bottom"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-start="0"> </div>             
+              <div class="tp-caption sft fadeout text-center large_white"
+                                    data-x="center"
+                                    data-y="70"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-start="0"
+                                    ><span class="logo-font"><img src="/$$space/.files/images/slide1.png"></span> 
+                Hyperconverged Storage </div>
+              
+              <div class="tp-caption ZoomIn fadeout text-center tp-resizeme large_white"
+                                    data-x="center"
+                                    data-y="270"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad">
+                <div class="separator light"></div>
+              </div>
+              <div class="tp-caption sft fadeout medium_white text-center"
+                                    data-x="center"
+                                    data-y="300"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-endspeed="600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                Nesciunt, maiores, aliquid. Repellat eum numquam aliquid culpa offici, <br>
+                tenetur fugiat dolorum sapiente eligendi... </div>
+              <div class="tp-caption fade fadeout"
+                                    data-x="center"
+                                    data-y="bottom"
+                                    data-voffset="100"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
+            </li>
+            <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title="Powerful Bootstrap Template"> <img src="/$$space/.files/images/slider-fullscreen-slide-1.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+              <div class="tp-caption dark-translucent-bg"
+                                    data-x="center"
+                                    data-y="bottom"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-start="0"> </div>             
+              <div class="tp-caption sft fadeout text-center large_white"
+                                    data-x="center"
+                                    data-y="70"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-start="0"
+                                    ><span class="logo-font"><img src="/$$space/.files/images/slide2.png"></span>
+                Hyperscale Cloud </div>
+              
+              <div class="tp-caption ZoomIn fadeout text-center tp-resizeme large_white"
+                                    data-x="center"
+                                    data-y="250"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad">
+                <div class="separator light"></div>
+              </div>
+              <div class="tp-caption sft fadeout medium_white text-center"
+                                    data-x="center"
+                                    data-y="280"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-endspeed="600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                Nesciunt, maiores, aliquid. Repellat eum numquam aliquid culpa offici, <br>
+                tenetur fugiat dolorum sapiente eligendi... </div>
+              <div class="tp-caption fade fadeout"
+                                    data-x="center"
+                                    data-y="bottom"
+                                    data-voffset="100"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
+            </li>
+            <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title="Powerful Bootstrap Template"> <img src="/$$space/.files/images/slider-fullscreen-slide-1.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+              <div class="tp-caption dark-translucent-bg"
+                                    data-x="center"
+                                    data-y="bottom"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-start="0"> </div>             
+              <div class="tp-caption sft fadeout text-center large_white"
+                                    data-x="center"
+                                    data-y="70"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-start="0"
+                                    ><span class="logo-font"><img src="/$$space/.files/images/slide3.png"></span> 
+                Hypersecure Workspaces </div>
+              
+              <div class="tp-caption ZoomIn fadeout text-center tp-resizeme large_white"
+                                    data-x="center"
+                                    data-y="270"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad">
+                <div class="separator light"></div>
+              </div>
+              <div class="tp-caption sft fadeout medium_white text-center"
+                                    data-x="center"
+                                    data-y="300"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-endspeed="600">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>
+                Nesciunt, maiores, aliquid. Repellat eum numquam aliquid culpa offici, <br>
+                tenetur fugiat dolorum sapiente eligendi... </div>
+              <div class="tp-caption fade fadeout"
+                                    data-x="center"
+                                    data-y="bottom"
+                                    data-voffset="100"
+                                    data-speed="500"
+                                    data-easing="easeOutQuad"
+                                    data-endspeed="200"> <a href="/$$space/.files/#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
+            </li>
             
-        @rowend
-    @blockend
-    {{html: 
-</section>
+          </ul>
+          <div class="tp-bannertimer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="page-start"></div>
+  <section class="light-gray-bg pv-30 clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 id="solutions" class="text-center">Solutions</h2>
+          <div class="separator"></div>
+          <p class="large text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptas facere vero ex tempora saepe perspiciatis ducimus sequi animi.</p>
+        </div>
+        <div class="col-md-3 ">
+          <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="100"> <span class="icon default-bg circle"><i class="fa fa-server"></i></span>
+            <h4>Surveillance Storage</h4>
+            <div class="separator clearfix"></div>
+            <p>Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem ipsum dolor sit amet, consectetur.</p>
+            <a href="/$$space/.files/page-services.html">Read More <i class="pl-5 fa fa-angle-double-right"></i></a> </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="150"> <span class="icon default-bg circle"><i class="fa fa-cubes"></i></span>
+            <h4>Server Virtualization</h4>
+            <div class="separator clearfix"></div>
+            <p>Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur.</p>
+            <a href="/$$space/.files/page-services.html">Read More <i class="pl-5 fa fa-angle-double-right"></i></a> </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200"> <span class="icon default-bg circle"><i class="fa fa-exchange"></i></span>
+            <h4>Big data Solutions</h4>
+            <div class="separator clearfix"></div>
+            <p>Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur.</p>
+            <a href="/$$space/.files/page-services.html">Read More <i class="pl-5 fa fa-angle-double-right"></i></a> </div>
+        </div>
+        <div class="col-md-3 ">
+          <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200"> <span class="icon default-bg circle"><i class="fa fa-cloud"></i></span>
+            <h4>Public Telco Cloud</h4>
+            <div class="separator clearfix"></div>
+            <p>Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur.</p>
+            <a href="/$$space/.files/page-services.html">Read More <i class="pl-5 fa fa-angle-double-right"></i></a> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section default-bg clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="call-to-action text-center">
+            <div class="row">
+              <div class="col-sm-8">
+                <h1 class="title">Don't Miss Out Our Offers</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quasi explicabo consequatur consectetur, a atque voluptate officiis eligendi nostrum.</p>
+              </div>
+              <div class="col-sm-4"> <br>
+                <p><a href="/$$space/.files/#" class="btn btn-lg btn-gray-transparent btn-animated">Learn More<i class="fa fa-arrow-right pl-20"></i></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="benefits" class="pv-30">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <h2 class="text-center">Benefits</h2>
+          <div class="separator"></div>
+          <p class="large text-center">Atque ducimus velit, earum quidem, iusto dolorem. Ex ipsam totam quas blanditiis, pariatur maxime ipsa iste, doloremque neque doloribus, error. Corrupti, tenetur.</p>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="owl-carousel content-slider-with-large-controls">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"> <img src="/$$space/.files/images/section-image-1.png" alt=""> </div>
+          <div class="col-md-6">
+            <p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident modi nobis dolores ratione, maiores beatae vel iste illo incidunt officia sed id cupiditate quasi excepturi</p>
+            <div class="media">
+              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-eye"></i> </span> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading">Scalability</h4>
+                Cras sit amet nibh libero, in gravida nulla. Sollicitudin. </div>
+            </div>
+            <div class="media">
+              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-trophy"></i> </span> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading">Security</h4>
+                Cras sit amet nibh libero. Nulla vel metus scelerisque. </div>
+            </div>
+            <div class="media">
+              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-lifebuoy"></i> </span> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading">Availability</h4>
+                Cras sit amet nibh libero. Nulla vel metus scelerisque. </div>
+            </div>
+            <div class="media">
+              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-lifebuoy"></i> </span> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading">Flexibility</h4>
+                Cras sit amet nibh libero. Nulla vel metus scelerisque. </div>
+            </div>
+            <p><a href="/$$space/.files/page-services.html" class="btn btn-default-transparent btn-animated">Learn More <i class="fa fa-arrow-right pl-10"></i></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-right">
+            <p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident modi nobis dolores ratione, maiores beatae vel iste illo incidunt officia sed id cupiditate quasi excepturi</p>
+            <div class="media">
+              <div class="media-body">
+                <h4 class="media-heading">Extremely Flexible</h4>
+                Cras sit amet nibh libero, in gravida nulla. Sollicitudin. </div>
+              <div class="media-right pl-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-eye"></i> </span> </a> </div>
+            </div>
+            <div class="media">
+              <div class="media-body">
+                <h4 class="media-heading">Packed Full Of Features</h4>
+                Cras sit amet nibh libero. Nulla vel metus scelerisque. </div>
+              <div class="media-right pl-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-trophy"></i> </span> </a> </div>
+            </div>
+            <div class="media">
+              <div class="media-body">
+                <h4 class="media-heading">24/7 Support</h4>
+                Cras sit amet nibh libero. Nulla vel metus scelerisque. </div>
+              <div class="media-right pl-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-lifebuoy"></i> </span> </a> </div>
+            </div>
+            <p><a href="/$$space/.files/page-services.html" class="btn btn-default-transparent btn-animated">Learn More <i class="fa fa-arrow-right pl-10"></i></a></p>
+          </div>
+          <div class="col-md-6"> <img src="/$$space/.files/images/section-image-2.png" alt=""> </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="technology" class="pv-30 default-bg padding-bottom-clear clearfix">
+  <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h2 class="text-center">Technology</h2>
+                            <div class="separator"></div>
+                            <p class="large text-center">Atque ducimus velit, earum quidem, iusto dolorem. Ex ipsam totam quas blanditiis, pariatur maxime ipsa iste, doloremque neque doloribus, error. Corrupti, tenetur.</p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="feature-box-2 object-non-visible right animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                                    <span class="icon light-bg small"><i class="fa fa-arrows"></i></span>
+                                    <div class="body">
+                                        <h4 class="title">Mountain Top</h4>
+                                        <p>Our design is with responsive in mind. Our themes are compatible with various desktop, tablet, and mobile devices. <a href="/$$space/.files/page-services.html" class="link-light">Read More<i class="pl-5 fa fa-angle-double-right"></i></a></p>
+                                        <div class="separator-3"></div>
+                                    </div>
+                                </div>
+                                <div class="feature-box-2 object-non-visible right animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                                    <span class="icon without-bg"><i class="icon-megaphone"></i></span>
+                                    <div class="body">
+                                        <h4 class="title">OpenvSAN</h4>
+                                        <p>Our design is with responsive in mind. Our themes are compatible with various desktop, tablet, and mobile devices. <a href="/$$space/.files/page-services.html" class="link-light">Read More<i class="pl-5 fa fa-angle-double-right"></i></a></p>                                        
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                            <div class="col-md-6">                                                              
+                                <div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                                    <span class="icon light-bg small"><i class="icon-snow"></i></span>
+                                    <div class="body">
+                                        <h4 class="title">0-Desktop</h4>
+                                        <p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds. <a href="/$$space/.files/page-services.html" class="link-light">Read More<i class="pl-5 fa fa-angle-double-right"></i></a></p>
+                                        <div class="separator-2"></div>
+                                    </div>
+                                </div>
+                                <div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                                    <span class="icon without-bg"><i class=" icon-tools"></i></span>
+                                    <div class="body">
+                                        <h4 class="title">WhatsInsight</h4>
+                                        <p>Built with latest technologies like HTML5 and CSS3, with best practices and avoiding hacks and workarounds. <a href="/$$space/.files/page-services.html" class="link-light">Read More<i class="pl-5 fa fa-angle-double-right"></i></a></p>                                   
+                                    </div>
+                                </div>                              
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="team" class="main-container padding-bottom-clear">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="main col-md-12">
+                            <div class="col-md-8 col-md-offset-2">
+                            <h2 class="text-center">Team</h2>
+                            <div class="separator"></div>
+                            <p class="large text-center">Atque ducimus velit, earum quidem, iusto dolorem. Ex ipsam totam quas blanditiis, pariatur maxime ipsa iste, doloremque neque doloribus, error. Corrupti, tenetur.</p>
+                            <br>
+                        </div>
+                            <div class="row grid-space-10">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="image-box team-member shadow mb-20">
+                                        <div class="overlay-container overlay-visible">
+                                            <img src="/$$space/.files/images/team-member-1.jpg" alt="">
+                                            <a href="/$$space/.files/images/team-member-1.jpg" class="popup-img overlay-link" title="Jane Doe - CEO"><i class="icon-plus-1"></i></a>
+                                            <div class="overlay-bottom">
+                                                <div class="text">
+                                                    <h3 class="title margin-clear">Jane Doe</h3>
+                                                    <p class="margin-clear">CTO</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="image-box team-member shadow mb-20">
+                                        <div class="overlay-container overlay-visible">
+                                            <img src="/$$space/.files/images/team-member-2.jpg" alt="">
+                                            <a href="/$$space/.files/images/team-member-3.jpg" class="popup-img overlay-link" title="Jane Doe - CEO"><i class="icon-plus-1"></i></a>
+                                            <div class="overlay-bottom">
+                                                <div class="text">
+                                                    <h3 class="title margin-clear">John Smile</h3>
+                                                    <p class="margin-clear">PRODUCER</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="image-box team-member shadow mb-20">
+                                        <div class="overlay-container overlay-visible">
+                                            <img src="/$$space/.files/images/team-member-3.jpg" alt="">
+                                            <a href="/$$space/.files/images/team-member-3.jpg" class="popup-img overlay-link" title="Jane Doe - CEO"><i class="icon-plus-1"></i></a>
+                                            <div class="overlay-bottom">
+                                                <div class="text">
+                                                    <h3 class="title margin-clear">Jane Doe</h3>
+                                                    <p class="margin-clear">PROJECT MANAGER</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="image-box team-member shadow mb-20">
+                                        <div class="overlay-container overlay-visible">
+                                            <img src="/$$space/.files/images/team-member-4.jpg" alt="">
+                                            <a href="/$$space/.files/images/team-member-4.jpg" class="popup-img overlay-link" title="Jane Doe - CEO"><i class="icon-plus-1"></i></a>
+                                            <div class="overlay-bottom">
+                                                <div class="text">
+                                                    <h3 class="title margin-clear">Jane Doe</h3>
+                                                    <p class="margin-clear">DEVELOPER</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                            
+                    </div>
+                </div>
+                <br><br>
+            </section>
+            <section class="dark-translucent-bg background-img-5 pv-40">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="owl-carousel content-slider owl-theme" style="opacity: 1; display: block;">
+                                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2220px; left: -555px; display: block;"><div class="owl-item" style="width: 555px;"><div class="testimonial text-center padding-ver-clear">
+                                    <h3>About us</h3>
+                                    <div class="separator"></div>
+                                    <div class="testimonial-body">
+                                        <blockquote>
+                                            <p>Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium, totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.
+                                            Sed ut perspiciatis unde omnis iste natu error sit voluptatem accusan tium dolore laud antium, totam rem dolor sit amet tristique pulvinar, turpis arcu rutrum nunc, ac laoreet turpis augue a justo.</p>
+                                        </blockquote>
+                                        
+                                    </div>
+                                </div></div><div class="owl-item" style="width: 555px;"><div class="testimonial text-center padding-ver-clear">
+                                    <h3>Amazing!</h3>
+                                    <div class="separator"></div>
+                                    <div class="testimonial-body">
+                                        <blockquote>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et cupiditate deleniti ratione in. Expedita nemo, quisquam, fuga adipisci omnis ad mollitia libero culpa nostrum est quia eos esse vel!</p>
+                                        </blockquote>
+                                        <div class="testimonial-info-1">- Jane Doe</div>
+                                        <div class="testimonial-info-2">By Company</div>
+                                    </div>
+                                </div></div></div></div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="clients-container">
+                                <div class="clients">
+                                    <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="100">
+                                        <a href="/$$space/.files/#"><img src="/$$space/.files/images/client-1.png" alt=""></a>
+                                    </div>
+                                    <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="200">
+                                        <a href="/$$space/.files/#"><img src="/$$space/.files/images/client-2.png" alt=""></a>
+                                    </div>
+                                    <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="300">
+                                        <a href="/$$space/.files/#"><img src="/$$space/.files/images/client-3.png" alt=""></a>
+                                    </div>
+                                    <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="400">
+                                        <a href="/$$space/.files/#"><img src="/$$space/.files/images/client-4.png" alt=""></a>
+                                    </div>
+                                    <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="500">
+                                        <a href="/$$space/.files/#"><img src="/$$space/.files/images/client-5.png" alt=""></a>
+                                    </div>
+                                    <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="600">
+                                        <a href="/$$space/.files/#"><img src="/$$space/.files/images/client-6.png" alt=""></a>
+                                    </div>
+                                    <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="700">
+                                        <a href="/$$space/.files/#"><img src="/$$space/.files/images/client-7.png" alt=""></a>
+                                    </div>
+                                    <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="800">
+                                        <a href="/$$space/.files/#"><img src="/$$space/.files/images/client-8.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+  <footer id="footer" class="clearfix ">
+    <div class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="row">
+            <div class="col-md-3">
+              <h2 class="title">Site map</h2>
+              <div class="separator-2"></div>
+              <h6>Headers</h6>
+              <ul class="list">
+                <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
+                <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
+                <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
+                <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
+              </ul>
+
+              <h6>Headers</h6>
+              <ul class="list">
+                <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
+                <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
+                <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
+                <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
+              </ul>                          
+            </div>
+            <div class="col-md-3">
+              <h3>&nbsp;</h3>
+              <h6>Headers</h6>
+              <ul class="list">
+                <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
+                <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
+                <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
+                <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
+              </ul>
+
+              <h6>Headers</h6>
+              <ul class="list">
+                <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
+                <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
+                <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
+                <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
+              </ul>                          
+            </div>
+            
+            <div class="col-md-6">
+              <div class="footer-content">
+                <h2 class="title">Find Us</h2>
+                <div class="separator-2"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium odio voluptatem necessitatibus illo vel dolorum soluta.</p>
+                <ul class="social-links circle animated-effect-1">
+                  <li class="facebook"><a target="_blank" href="/$$space/.files/http://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                  <li class="twitter"><a target="_blank" href="/$$space/.files/http://www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                  <li class="googleplus"><a target="_blank" href="/$$space/.files/http://plus.google.com"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="linkedin"><a target="_blank" href="/$$space/.files/http://www.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="xing"><a target="_blank" href="/$$space/.files/http://www.xing.com"><i class="fa fa-xing"></i></a></li>
+                </ul>
+                <div class="separator-2"></div>
+                <ul class="list-icons">
+                  <li><i class="fa fa-map-marker pr-10 text-default"></i> One infinity loop, 54100</li>
+                  <li><i class="fa fa-phone pr-10 text-default"></i> +00 1234567890</li>
+                  <li><a href="/$$space/.files/mailto:info@theproject.com"><i class="fa fa-envelope-o pr-10"></i>info@theproject.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subfooter">
+      <div class="container">
+        <div class="subfooter-inner">
+          <div class="row">
+            <div class="col-md-12">
+              <p class="text-center">Copyright © 2015 Green IT Globe. All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<script type="text/javascript" src="/$$space/.files/plugins/jquery.min.js"></script> 
+<script type="text/javascript" src="/$$space/.files/bootstrap/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="/$$space/.files/plugins/modernizr.js"></script> 
+<script type="text/javascript" src="/$$space/.files/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script> 
+<script type="text/javascript" src="/$$space/.files/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+<script type="text/javascript" src="/$$space/.files/plugins/isotope/isotope.pkgd.min.js"></script> 
+<script type="text/javascript" src="/$$space/.files/plugins/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<script type="text/javascript" src="/$$space/.files/plugins/waypoints/jquery.waypoints.min.js"></script> 
+<script type="text/javascript" src="/$$space/.files/plugins/jquery.countTo.js"></script> 
+<script src="/$$space/.files/plugins/jquery.parallax-1.1.3.js"></script> 
+<script src="/$$space/.files/plugins/jquery.validate.js"></script> 
+<script src="/$$space/.files/plugins/vide/jquery.vide.js"></script> 
+<script type="text/javascript" src="/$$space/.files/plugins/owl-carousel/owl.carousel.js"></script> 
+<script type="text/javascript" src="/$$space/.files/plugins/jquery.browser.js"></script> 
+<script type="text/javascript" src="/$$space/.files/plugins/SmoothScroll.js"></script> 
+<script type="text/javascript" src="/$$space/.files/js/template.js"></script> 
+<script type="text/javascript" src="/$$space/.files/js/custom.js"></script>
+</body>
+</html>
 }}
-
-

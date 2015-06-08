@@ -1,56 +1,9 @@
-/*B3toB2*/
-.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 { float: left; position: relative; min-height: 1px; padding: 0 15px; }
-.span1 { width: 8.333333333333332%; }
-.span2 { width: 16.666666666666664%; }
-.span3 { width: 25%; }
-.span4 { width: 33.33333333333333%; }
-.span5 { width: 41.66666666666667%; }
-.span6 { width: 50%; }
-.span7 { width: 58.333333333333336%; }
-.span8 { width: 66.66666666666666%; }
-.span9 { width: 75%; }
-.span10 { width: 83.33333333333334%; }
-.span11 { width: 91.66666666666666%; }
-.span12 { width: 100%; }
-.row-fluid { margin: 0 -15px; }
-.row-fluid:before, .row-fluid:after { display: table; line-height: 0; content: ""; }
-.row-fluid:after { clear: both; }
-@media (max-width: 768px) {
-.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 { clear: both; width: 100%; }
-}
-/*END of B3toB2*/
-/*admin menu*/
-.admin .navbar.navbar-inverse.navbar-fixed-top { position: fixed; z-index: 99999999; top: 122px; width: 300px !important; left: auto; display: inline-block; right: 0;}
-.admin .navbar.navbar-inverse.navbar-fixed-top .navbar-inner { background: rgb(89, 89, 89); }
-.admin div { width: 300px !important; }
-.admin .navbar .nav { position: relative; left: 0; display: block; margin: 0 -10px 0 0; float: left !important;}
-.admin .navbar .nav > li { float: left; }
-.admin .navbar .nav > li.dropdown > a:after  { display: none; }
-.admin .dropup, .dropdown { position: relative; }
-.navbar-inverse .nav > li > a {   color: #B0B0B0; /*text-shadow: none; text-transform: uppercase; font-weight: 500;*/ padding: 12px 15px; }
-.dropdown-menu { position: absolute; top: 100%; left: 0; z-index: 1000; display: none; float: left; min-width: 160px; padding: 5px 0; margin: 2px 0 0; list-style: none; background-color: #ffffff; border: 1px solid #ccc; border: 1px solid rgba(0, 0, 0, 0.2); }
-.admin .dropdown-menu > li > a { display: block; padding: 3px 20px; clear: both; font-weight: normal; line-height: 20px; color: #333333; white-space: nowrap; background-color: transparent; }
-.admin.admin2 .collapse { display: block; position: relative; height: 0; -webkit-transition: height 0.35s ease; -moz-transition: height 0.35s ease; -o-transition: height 0.35s ease; transition: height 0.35s ease; }
-.btn.btn-navbar { display: none; }
-/*END admin menu*/
-.header-full-title {padding-left: 0;background-image: none;}
-.carousel-text h3 { color: #FFF}
-.carousel-text h4 { color: #FFF}
-
-@media (min-width: 1200px) {
-	.admin .navbar.navbar-inverse.navbar-fixed-top { top: 122px; }
-	.home-devices {padding-top: 40px;padding-bottom: 40px;}
-	.video1 { text-align: left !important;}
-}
-.video1 { text-align: center;}
-.video1 {  padding-top: 69px; padding-bottom: 40px; }
-.header-full-title p { margin-bottom: 0;}
-.mTop40 { margin-top: 40px;   margin-bottom: 40px;}
-
-@media (max-width: 1415px) and (min-width: 767px) { 
-	.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control 
-	.glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {  top: 90%;} 
-}
-@media (max-width: 1200px) and (min-width: 770px) { 
-	iframe {   width: 93%;} 
-}
+/* Theme Name: The Project - Responsive Website Template
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Author e-mail:htmlcoder.me@gmail.com
+Version:1.0.0
+Created:December 2014
+License URI:http://support.wrapbootstrap.com/
+File Description: Place here your custom CSS styles
+*/
