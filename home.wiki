@@ -44,7 +44,7 @@
         <div class="row">
           <div class="col-md-3">
             <div class="header-left clearfix">
-              <div id="logo" class="logo"> <a href="/$$space/.files/index.html"><img width="130" id="logo_img" src="/$$space/.files/images/logo.png" alt="The Project"></a> </div>              
+              <div id="logo" class="logo"> <a href="/$$space/"><img width="130" id="logo_img" src="/$$space/.files/images/logo.png" alt="The Project"></a> </div>              
             </div>
           </div>
           <div class="col-md-9">
@@ -250,7 +250,7 @@
             <a href="/$$space/.files/page-services.html">Read More <i class="pl-5 fa fa-angle-double-right"></i></a> </div>
         </div>
         <div class="col-md-3 ">
-          <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200"> <span class="icon default-bg circle"><i class="fa fa-cloud"></i></span>
+          <div class="pv-30 ph-20 feature-box bordered shadow text-center object-non-visible" data-animation-effect="fadeInDownSmall" data-effect-delay="200"> <span class="icon default-bg circle"><i class="fa fa-skyatlas"></i></span>
             <h4>Public Telco Cloud</h4>
             <div class="separator clearfix"></div>
             <p>Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur.</p>
@@ -289,32 +289,32 @@
         </div>
       </div>
     </div>
-    <div class="owl-carousel content-slider-with-large-controls">
+    <div class="">
       <div class="container">
         <div class="row">
           <div class="col-md-6"> <img src="/$$space/.files/images/section-image-1.png" alt=""> </div>
           <div class="col-md-6">
             <p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident modi nobis dolores ratione, maiores beatae vel iste illo incidunt officia sed id cupiditate quasi excepturi</p>
             <div class="media">
-              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-eye"></i> </span> </a> </div>
+              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="fa fa-sort-amount-asc"></i> </span> </a> </div>
               <div class="media-body">
                 <h4 class="media-heading">Scalability</h4>
                 Cras sit amet nibh libero, in gravida nulla. Sollicitudin. </div>
             </div>
             <div class="media">
-              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-trophy"></i> </span> </a> </div>
+              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="fa fa-shield"></i> </span> </a> </div>
               <div class="media-body">
                 <h4 class="media-heading">Security</h4>
                 Cras sit amet nibh libero. Nulla vel metus scelerisque. </div>
             </div>
             <div class="media">
-              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-lifebuoy"></i> </span> </a> </div>
+              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="fa fa-check"></i> </span> </a> </div>
               <div class="media-body">
                 <h4 class="media-heading">Availability</h4>
                 Cras sit amet nibh libero. Nulla vel metus scelerisque. </div>
             </div>
             <div class="media">
-              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-lifebuoy"></i> </span> </a> </div>
+              <div class="media-left pr-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="fa fa-random"></i> </span> </a> </div>
               <div class="media-body">
                 <h4 class="media-heading">Flexibility</h4>
                 Cras sit amet nibh libero. Nulla vel metus scelerisque. </div>
@@ -323,33 +323,7 @@
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 text-right">
-            <p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident modi nobis dolores ratione, maiores beatae vel iste illo incidunt officia sed id cupiditate quasi excepturi</p>
-            <div class="media">
-              <div class="media-body">
-                <h4 class="media-heading">Extremely Flexible</h4>
-                Cras sit amet nibh libero, in gravida nulla. Sollicitudin. </div>
-              <div class="media-right pl-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-eye"></i> </span> </a> </div>
-            </div>
-            <div class="media">
-              <div class="media-body">
-                <h4 class="media-heading">Packed Full Of Features</h4>
-                Cras sit amet nibh libero. Nulla vel metus scelerisque. </div>
-              <div class="media-right pl-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-trophy"></i> </span> </a> </div>
-            </div>
-            <div class="media">
-              <div class="media-body">
-                <h4 class="media-heading">24/7 Support</h4>
-                Cras sit amet nibh libero. Nulla vel metus scelerisque. </div>
-              <div class="media-right pl-20"> <a href="/$$space/.files/#"> <span class="icon circle small default-bg"><i class="icon-lifebuoy"></i> </span> </a> </div>
-            </div>
-            <p><a href="/$$space/.files/page-services.html" class="btn btn-default-transparent btn-animated">Learn More <i class="fa fa-arrow-right pl-10"></i></a></p>
-          </div>
-          <div class="col-md-6"> <img src="/$$space/.files/images/section-image-2.png" alt=""> </div>
-        </div>
-      </div>
+      
     </div>
   </section>
   <section id="technology" class="pv-30 default-bg padding-bottom-clear clearfix">
