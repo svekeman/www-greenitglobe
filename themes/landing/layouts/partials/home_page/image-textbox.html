@@ -1,0 +1,60 @@
+{{ range $element :=  .Data.Pages }}
+  {{ if eq .Section "home" }}
+      {{ if eq .Title "aboutus_box" }}
+		<section class="dark-translucent-bg background-img-5 pv-40">
+		    <div class="container">
+		        <div class="row">
+		            <div class="col-md-6">
+		                <div class="owl-carousel content-slider owl-theme" style="opacity: 1; display: block;">
+		                    <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 2220px; left: -555px; display: block;"><div class="owl-item" style="width: 555px;"><div class="testimonial text-center padding-ver-clear">
+		                        <h3>{{ .Params.header }}</h3>
+		                        <div class="separator"></div>
+		                        <div class="testimonial-body">
+		                            <blockquote>
+		                                <p>{{ .Params.summary }}</p>
+		                            </blockquote>
+		                            
+		                        </div>
+		                    </div>
+		                    </div>
+		                    </div>
+		                    </div>
+		                    
+		                </div>
+		            </div>
+		            <div class="col-md-6">
+		                <div class="clients-container">
+		                    <div class="clients">
+		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="100">
+		                            <a href="#"><img src="images/client-1.png" alt=""></a>
+		                        </div>
+		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="200">
+		                            <a href="#"><img src="images/client-2.png" alt=""></a>
+		                        </div>
+		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="300">
+		                            <a href="#"><img src="images/client-3.png" alt=""></a>
+		                        </div>
+		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="400">
+		                            <a href="#"><img src="images/client-4.png" alt=""></a>
+		                        </div>
+		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="500">
+		                            <a href="#"><img src="images/client-5.png" alt=""></a>
+		                        </div>
+		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="600">
+		                            <a href="#"><img src="images/client-6.png" alt=""></a>
+		                        </div>
+		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="700">
+		                            <a href="#"><img src="images/client-7.png" alt=""></a>
+		                        </div>
+		                        <div class="client-image object-non-visible animated object-visible fadeIn" data-animation-effect="fadeIn" data-effect-delay="800">
+		                            <a href="#"><img src="images/client-8.png" alt=""></a>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</section>
+		{{ end }}
+  	{{ end }}
+{{ end }}

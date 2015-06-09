@@ -1,0 +1,85 @@
+{{ range $element :=  .Data.Pages }}
+  {{ if eq .Section "home" }}
+      {{ if eq .Title "footer_box" }}
+        <footer id="footer" class="clearfix ">
+            <div class="footer">
+              <div class="container">
+                <div class="footer-inner">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <h2 class="title">Site map</h2>
+                      <div class="separator-2"></div>
+                      <h6>Headers</h6>
+                      <ul class="list">
+                        <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
+                        <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
+                        <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
+                        <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
+                      </ul>
+
+                      <h6>Headers</h6>
+                      <ul class="list">
+                        <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
+                        <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
+                        <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
+                        <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
+                      </ul>                          
+                    </div>
+                    <div class="col-md-3">
+                      <h3>&nbsp;</h3>
+                      <h6>Headers</h6>
+                      <ul class="list">
+                        <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
+                        <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
+                        <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
+                        <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
+                      </ul>
+
+                      <h6>Headers</h6>
+                      <ul class="list">
+                        <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
+                        <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
+                        <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
+                        <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
+                      </ul>                          
+                    </div>
+                    
+                    <div class="col-md-6">
+                      <div class="footer-content">
+                        <h2 class="title">{{ .Params.header }}</h2>
+                        <div class="separator-2"></div>
+                        <p>{{ .Params.summary }}</p>
+                        <ul class="social-links circle animated-effect-1">
+                          <li class="facebook"><a target="_blank" href="{{ .Params.social1_link }}"><i class="fa fa-{{ .Params.social1_title }}"></i></a></li>
+                          <li class="twitter"><a target="_blank" href="{{ .Params.social2_link }}"><i class="fa fa-{{ .Params.social2_title }}"></i></a></li>
+                          <li class="googleplus"><a target="_blank" href="{{ .Params.social3_link }}"><i class="fa fa-{{ .Params.social3_title }}"></i></a></li>
+                          <li class="linkedin"><a target="_blank" href="{{ .Params.social4_link }}"><i class="fa fa-{{ .Params.social4_title }}"></i></a></li>
+                          <li class="xing"><a target="_blank" href="{{ .Params.social5_link }}"><i class="fa fa-{{ .Params.social5_title }}"></i></a></li>
+                        </ul>
+                        <div class="separator-2"></div>
+                        <ul class="list-icons">
+                          <li><i class="fa fa-map-marker pr-10 text-default"></i> {{ .Params.location }}</li>
+                          <li><i class="fa fa-phone pr-10 text-default"></i> {{ .Params.phone }}</li>
+                          <li><a href="mailto:info@theproject.com"><i class="fa fa-envelope-o pr-10"></i>{{ .Params.email }}</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subfooter">
+              <div class="container">
+                <div class="subfooter-inner">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p class="text-center">{{ .Params.copy_right }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </footer>
+      {{ end }}
+    {{ end }}
+{{ end }}

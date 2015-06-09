@@ -1,0 +1,58 @@
+{{ range $element :=  .Data.Pages }}
+  {{ if eq .Section "home" }}
+      {{ if eq .Title "technology_box" }}
+        <section id="technology" class="pv-30 default-bg padding-bottom-clear clearfix">
+        	    <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h2 class="text-center">{{ .Params.header }}</h2>
+                            <div class="separator"></div>
+                            <p class="large text-center">{{ .Params.summary }}</p>
+                            <br>
+                        </div>
+                    </div>
+        	    </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="feature-box-2 object-non-visible right animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                                <span class="icon light-bg small"><i class="fa fa-arrows"></i></span>
+                                <div class="body">
+                                    <h4 class="title">{{ .Params.technology1_title }}</h4>
+                                    <p>{{ .Params.technology1_text }} <a href="{{ .Params.technology1_link }}" class="link-light">Read More<i class="pl-5 fa fa-angle-double-right"></i></a></p>
+                                    <div class="separator-3"></div>
+                                </div>
+                            </div>
+                            <div class="feature-box-2 object-non-visible right animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                                <span class="icon without-bg"><i class="icon-megaphone"></i></span>
+                                <div class="body">
+                                    <h4 class="title">{{ .Params.technology2_title }}</h4>
+                                    <p>{{ .Params.technology2_text }} <a href="{{ .Params.technology2_link }}" class="link-light">Read More<i class="pl-5 fa fa-angle-double-right"></i></a></p>                                        
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-md-6">                                                              
+                            <div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                                <span class="icon light-bg small"><i class="icon-snow"></i></span>
+                                <div class="body">
+                                    <h4 class="title">{{ .Params.technology3_title }}</h4>
+                                    <p>{{ .Params.technology3_text }} <a href="{{ .Params.technology3_link }}" class="link-light">Read More<i class="pl-5 fa fa-angle-double-right"></i></a></p>
+                                    <div class="separator-2"></div>
+                                </div>
+                            </div>
+                            <div class="feature-box-2 object-non-visible animated object-visible fadeInDownSmall" data-animation-effect="fadeInDownSmall" data-effect-delay="100">
+                                <span class="icon without-bg"><i class=" icon-tools"></i></span>
+                                <div class="body">
+                                    <h4 class="title">{{ .Params.technology4_title }}</h4>
+                                    <p>{{ .Params.technology4_text }} <a href="{{ .Params.technology4_link }}" class="link-light">Read More<i class="pl-5 fa fa-angle-double-right"></i></a></p>                                   
+                                </div>
+                            </div>                              
+                            <br>
+                        </div>
+                    </div>
+                </div>
+          </section>
+    {{ end }}
+  {{ end }}
+{{ end }}

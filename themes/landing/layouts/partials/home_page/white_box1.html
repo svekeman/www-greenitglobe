@@ -1,0 +1,53 @@
+{{ range $element :=  .Data.Pages }}
+  {{ if eq .Section "home" }}
+      {{ if eq .Title "benefits_box" }}
+        <section id="benefits" class="pv-30">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <h2 class="text-center">{{ .Params.header }}</h2>
+                  <div class="separator"></div>
+                  <p class="large text-center">{{ .Params.summary }}</p>
+                  <br>
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6"> <img src="images/section-image-1.png" alt=""> </div>
+                  <div class="col-md-6">
+                    <p class="space-top"></p>
+                    <div class="media">
+                      <div class="media-left pr-20"> <a href="{{ .Params.benefit1_link }}"> <span class="icon circle small default-bg"><i class="fa fa-sort-amount-asc"></i> </span> </a> </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">{{ .Params.benefit1_title }}</h4>
+                        {{ .Params.benefit1_text }} </div>
+                    </div>
+                    <div class="media">
+                      <div class="media-left pr-20"> <a href="{{ .Params.benefit2_link }}"> <span class="icon circle small default-bg"><i class="fa fa-shield"></i> </span> </a> </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">{{ .Params.benefit2_title }}</h4>
+                        {{ .Params.benefit2_text }} </div>
+                    </div>
+                    <div class="media">
+                      <div class="media-left pr-20"> <a href="{{ .Params.benefit3_link }}"> <span class="icon circle small default-bg"><i class="fa fa-check"></i> </span> </a> </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">{{ .Params.benefit3_title }}</h4>
+                        {{ .Params.benefit3_text }} </div>
+                    </div>
+                    <div class="media">
+                      <div class="media-left pr-20"> <a href="{{ .Params.benefit4_link }}"> <span class="icon circle small default-bg"><i class="fa fa-random"></i> </span> </a> </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">{{ .Params.benefit4_title }}</h4>
+                        {{ .Params.benefit4_text }} </div>
+                    </div>
+                    <p><a href="{{ .Params.link }}" class="btn btn-default-transparent btn-animated">Learn More <i class="fa fa-arrow-right pl-10"></i></a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    {{ end }}
+  {{ end }}
+{{ end }}
