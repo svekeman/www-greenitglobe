@@ -1,12 +1,12 @@
-http://new-gig.aydo.com:8080{
+http://new-gig.aydo.com:8080 {
     bind 0.0.0.0
     gzip
-    root new-gig/site
+    root new-gig.aydo.com:8080/site
     git {
-        repo git@git.aydo.com:ovs/www-ovs.git
+        repo git@git.aydo.com:static-websites/new-gig.git
         interval 300
         key ../keys/id_rsa
         path ../..
-        then hugo -s new-gig.aydo.com
+        then hugo -s new-gig.aydo.com:8080
     }
 }
