@@ -1,5 +1,0 @@
-{{html: 
-	<footer id="footer">
-	    <p>&copy; 2015 <a href="#">Green IT Gateway</a>, inc. All rights reserved.</p>
-	</footer>
-}}
