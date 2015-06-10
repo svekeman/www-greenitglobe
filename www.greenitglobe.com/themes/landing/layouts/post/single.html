@@ -1,0 +1,31 @@
+{{ partial "head.html" . }}
+	<body class="no-trans front-page transparent-header ">
+	    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
+	        <div class="page-wrapper">
+			{{ partial "header.html" . }}
+				<div id="wrap">
+					<div id="main">
+						<div class="blue-bar">
+							<div class="container">
+								<div class="row">
+							    	<h1>{{ .Title }}</h1>
+								</div>
+							</div>
+						</div>
+						<div class="container page-container">
+							<div class="row">
+						          {{ .Content }}		
+							</div>
+						</div>
+					</div>
+				</div>
+			{{ partial "home_page/footer.html" . }}
+			</div>
+			<script type="text/javascript" src="/plugins/jquery.min.js"></script> 
+			<script type="text/javascript" src="/bootstrap/js/bootstrap.min.js"></script> 
+			<script type="text/javascript" src="/plugins/modernizr.js"></script> 
+			<script type="text/javascript" src="/js/template.js"></script> 
+			<script type="text/javascript" src="/js/custom.js"></script>
+	</body>
+</html>
+
