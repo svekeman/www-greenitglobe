@@ -1,11 +1,16 @@
 {{ partial "head.html" . }}
+<style type="text/css">
+	.footer {border-top: 1px solid #eaeaea;}
+</style>
 	<body class="no-trans front-page transparent-header ">
 	    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
 	        <div class="page-wrapper">
 			{{ partial "header.html" . }}
 				<div id="wrap">
-					<div id="main">
+					<div class="main-container" id="main">
 						<div class="container page-container">
+							<h2 class="title">{{ .Params.thin }}  <strong>{{ .Title }}</strong></h2>
+							<div class="separator-2"></div>
 							<div class="row">
 						          {{ .Content }}		
 							</div>
