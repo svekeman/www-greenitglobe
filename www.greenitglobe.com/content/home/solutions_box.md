@@ -8,11 +8,11 @@ summary = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam vol
 
 block1_title = "Surveillance Storage"
 block1_text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-block1_link = "#"
+block1_link = "solutions/surveillance-storage"
 
 block2_title = "Server Virtualization"
 block2_text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-block2_link = "#"
+block2_link = "solutions/server-virtualization"
 
 block3_title = "Big data Solutions"
 block3_text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."

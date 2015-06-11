@@ -8,11 +8,11 @@ summary = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam vol
 
 benefit1_title = "Scalability"
 benefit1_text = "Cras sit amet nibh libero, in gravida nulla. Sollicitudin."
-benefit1_link = "#"
+benefit1_link = "benefits/scalability"
 
 benefit2_title = "Security"
 benefit2_text = "Cras sit amet nibh libero. Nulla vel metus scelerisque."
-benefit2_link = "#"
+benefit2_link = "benefits/security"
 
 benefit3_title = "Availability"
 benefit3_text = "Cras sit amet nibh libero. Nulla vel metus scelerisque."
