@@ -14,31 +14,34 @@
                             {{ end }}
                           {{ end }}
                         </ul>
-                        <h6>Headers</h6>
+                        <h6>Benefits</h6>
                         <ul class="list">
-                          <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
-                          <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
-                          <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
-                          <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
+                          {{ range $element :=  $.Site.Pages }}
+                            {{ if eq .Section "benefits" }}
+                                  <li><a href="{{ $element.RelPermalink }} "><i class="icon-right-open"></i>{{ $element.Title }}</a></li>
+                            {{ end }}
+                          {{ end }}
                         </ul>                          
                     </div>
                     <div class="col-md-3">
                       <h3>&nbsp;</h3>
-                      <h6>Headers</h6>
+                      <h6>Technology</h6>
                       <ul class="list">
-                        <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
-                        <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
-                        <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
-                        <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
-                      </ul>
+                          {{ range $element :=  $.Site.Pages }}
+                            {{ if eq .Section "technology" }}
+                                  <li><a href="{{ $element.RelPermalink }} "><i class="icon-right-open"></i>{{ $element.Title }}</a></li>
+                            {{ end }}
+                          {{ end }}
+                        </ul>    
 
-                      <h6>Headers</h6>
+                      <h6>Company</h6>
                       <ul class="list">
-                        <li><a href="index.html"><i class="icon-right-open"></i>Home Default</a></li>
-                        <li><a href="index-corporate-1.html"><i class="icon-right-open"></i>Corporate 1</a></li>
-                        <li><a href="index-corporate-2.html"><i class="icon-right-open"></i>Corporate 2</a></li>
-                        <li><a href="index-corporate-3.html"><i class="icon-right-open"></i>Corporate 3</a></li>
-                      </ul>                          
+                          {{ range $element :=  $.Site.Pages }}
+                            {{ if eq .Section "company" }}
+                                  <li><a href="{{ $element.RelPermalink }} "><i class="icon-right-open"></i>{{ $element.Title }}</a></li>
+                            {{ end }}
+                          {{ end }}
+                        </ul>                             
                     </div>
                     
                     {{ range $element :=  $.Site.Pages }}
