@@ -6,10 +6,10 @@
                     <div class="col-md-3">
                       <h2 class="title">Site map</h2>
                       <div class="separator-2"></div>
-                        <h6>Solutions</h6>
+                        <h6>Use cases</h6>
                         <ul class="list">
                           {{ range $element :=  $.Site.Pages }}
-                            {{ if eq .Section "solutions" }}
+                            {{ if eq .Section "usecases" }}
                                   <li><a href="{{ $element.RelPermalink }} "><i class="icon-right-open"></i>{{ $element.Title }}</a></li>
                             {{ end }}
                           {{ end }}
@@ -21,7 +21,15 @@
                                   <li><a href="{{ $element.RelPermalink }} "><i class="icon-right-open"></i>{{ $element.Title }}</a></li>
                             {{ end }}
                           {{ end }}
-                        </ul>                          
+                        </ul>
+                        <h6>Solutions</h6>
+                        <ul class="list">
+                          {{ range $element :=  $.Site.Pages }}
+                            {{ if eq .Section "solutions" }}
+                                  <li><a href="{{ $element.RelPermalink }} "><i class="icon-right-open"></i>{{ $element.Title }}</a></li>
+                            {{ end }}
+                          {{ end }}
+                        </ul>  
                     </div>
                     <div class="col-md-3">
                       <h3>&nbsp;</h3>
