@@ -2,7 +2,7 @@
 #Don't remove title!
 title = "intro_slider_box"
 
-slide1_title = "Autonomous IT"
+slide1_title = "Russian Autonomous IT"
 slide1_text = "Green IT Globe develops autonomous Zero-Touch IT systems that think for you"
 
 slide2_title = "Sustainable IT"
