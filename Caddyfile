@@ -1,7 +1,7 @@
 http://new-gig.aydo.com:8080 {
     bind 0.0.0.0
     gzip
-    root www.greenitglobe.com/site
+    root www.greenitglobe.com
     git {
        repo git@git.aydo.com:static-websites/new-gig.git
        interval 300
