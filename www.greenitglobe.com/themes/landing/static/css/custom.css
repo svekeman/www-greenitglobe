@@ -1,3 +1,5 @@
 .text-dark, .text-dark h4 { color: #777777;}
 .text-white { color: #FFF;}
 .bg-white {background-color: #FFF;}
+.slides .large_white { font-weight: bold;}
+.iconCustom {display: inline-table; vertical-align: middle;}
