@@ -1,10 +1,10 @@
 baseurl = "/"
-LanguageCode = "en"
+LanguageCode = "ru"
 title = "GreenITGlobe"
 theme = "landing"
-contentdir = "content"
+contentdir = "content-russian"
 staticdir = "static"
-publishdir = "site"
+publishdir = "site-russian"
 relativeURLs = true
 
 [permalinks]
