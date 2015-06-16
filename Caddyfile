@@ -6,7 +6,7 @@ http://new-gig.aydo.com:8080 {
        repo git@git.aydo.com:static-websites/new-gig.git
        interval 300
        key ../keys/id_rsa
-       path ../..
-       then hugo -s www.greenitglobe.com
+       path ../
+       then ./hugo-init
     }
 }
