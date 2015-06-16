@@ -4,7 +4,7 @@ title = "GreenITGlobe"
 theme = "landing"
 contentdir = "content"
 staticdir = "static"
-publishdir = "site"
+publishdir = "en"
 relativeURLs = true
 
 [permalinks]
