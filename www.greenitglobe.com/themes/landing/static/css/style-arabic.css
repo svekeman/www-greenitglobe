@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'ge_ss_two_medium';
+  src: url("../fonts-arabic/ge_ss_two_medium-webfont.eot");
+  src: url("../fonts-arabic/ge_ss_two_medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts-arabic/ge_ss_two_medium-webfont.ttf") format("truetype"), url("../fonts-arabic/ge_ss_two_medium-webfont.woff") format("woff"), url("../fonts-arabic/ge_ss_two_medium-webfont.svg#ge_ss_two_medium-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /* 1 Typography
 ----------------------------------------------------------------------------- */
 /*Fonts
@@ -9,7 +16,7 @@ h4,
 h5,
 h6,
 .navbar .navbar-nav {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'ge_ss_two_medium', sans-serif;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -4179,7 +4186,7 @@ fieldset[disabled] .form-control {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  margin: 10px 0 15px;
+  margin: 25px -5px 15px 0;
   border-color: #ededed;
   background-color: #fafafa;
   font-weight: 400;
@@ -4571,7 +4578,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
 /* Small devices (tablets, phones less than 767px) */
 @media (max-width: 767px) {
   /* Mobile menu
-	------------------------------ */
+  ------------------------------ */
   /* active item */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -4638,7 +4645,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
   .transparent-header .main-navigation .navbar.navbar-default {
     background-color: rgba(255, 255, 255, 0.9);
     position: absolute;
-    width: 100%;
+    width: 97%;
   }
 }
 /* 6.2 Dark Version
@@ -6339,14 +6346,14 @@ h6.media-heading {
 }
 .xlarge_white {
   font-size: 68px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'ge_ss_two_medium', sans-serif;
   font-weight: 400;
   color: #ffffff;
   line-height: 1.2;
 }
 .large_white {
   font-size: 42px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'ge_ss_two_medium', sans-serif;
   color: #ffffff;
   line-height: 1.2;
 }
@@ -6362,14 +6369,14 @@ h6.media-heading {
 }
 .xlarge_dark {
   font-size: 68px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'ge_ss_two_medium', sans-serif;
   font-weight: 400;
   color: #333;
   line-height: 1.2;
 }
 .large_dark {
   font-size: 42px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'ge_ss_two_medium', sans-serif;
   color: #333;
   line-height: 1.2;
 }
@@ -6589,7 +6596,7 @@ h6.media-heading {
   color: #ffffff;
   text-transform: none;
   font-weight: 300;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'ge_ss_two_medium', sans-serif;
 }
 /* Small devices (tablets, phones 768px and Up) */
 @media (min-width: 768px) {
