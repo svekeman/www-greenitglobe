@@ -42,7 +42,13 @@
                         <h4 class="media-heading">{{ .Params.benefit4_title }}</h4>
                         {{ .Params.benefit4_text }} </div>
                     </div>
-                    <p><a href="{{ .Params.link }}" class="btn btn-default-transparent btn-animated">Learn More <i class="fa fa-arrow-right pl-10"></i></a></p>
+                    <p><a href="{{ .Params.link }}" class="btn btn-default-transparent btn-animated">Learn More 
+                    {{ if eq $.Site.LanguageCode "ar" }}
+                    <i class="fa fa-arrow-left pl-10"></i>
+                    {{else}}
+                    <i class="fa fa-arrow-right pl-10"></i>
+                    {{end}}
+                    </a></p>
                   </div>
                 </div>
               </div>
