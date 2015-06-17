@@ -1,0 +1,11 @@
+baseurl = "/"
+LanguageCode = "ar"
+title = "GreenITGlobe"
+theme = "landing"
+contentdir = "content-arabic"
+staticdir = "static"
+publishdir = "ar"
+relativeURLs = true
+
+[permalinks]
+    post = "/:filename"
