@@ -28,8 +28,9 @@
 <link href="/css/skins/green.css" rel="stylesheet">
 <link href="/css/custom.css" rel="stylesheet">
 
-
-<link href="/css/arabic.css" rel="stylesheet">
+{{ if eq $.Site.LanguageCode "ar" }}
+	<link href="/css/arabic.css" rel="stylesheet">
+{{ end }}
 
 <style type="text/css">
   .tp-caption img {margin: 0 auto;}
