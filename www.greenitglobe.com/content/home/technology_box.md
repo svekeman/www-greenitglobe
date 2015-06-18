@@ -14,7 +14,7 @@ technology2_title = "0-Desktop"
 technology2_text = "Our design is with responsive in mind. Our themes are compatible with various desktop, tablet, and mobile devices."
 technology2_link = "#"
 
-technology3_title = "0-Complexity"
+technology3_title = "0-Storage"
 technology3_text = "Our design is with responsive in mind. Our themes are compatible with various desktop, tablet, and mobile devices."
 technology3_link = "technology/openvsan"
 
