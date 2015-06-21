@@ -4,7 +4,7 @@ title = "solutions_box"
 
 header = "SOLUTIONS"
 
-summary = "Green IT Globe has been at the forefront of innovating and changing the storage and converged infrastructure industry in the last 15 years with disruptive solutions for our customers."
+summary = "Green IT Globe has been at the forefront of innovating and changing the storage and cloud technology landscape with disruptive solutions for all our customers."
 
 block1_title = "Hyperconverged Storage"
 block1_text = "Building blocks for enterprise computing solutions and datacenter storage which require converged compute, storage and virtualization into a turnkey solution."
