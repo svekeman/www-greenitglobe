@@ -12,7 +12,7 @@ technology1_link = "technology/mountain-top"
 
 technology2_title = "0-Desktop"
 technology2_text = "Desktops have evolved into workspaces. We secure your data containers and provide controlled access to all your applications from any device, anywhere."
-technology2_link = "#"
+technology2_link = "technology/mountain-top"
 
 technology3_title = "0-Storage"
 technology3_text = "Storage is at the core of any IT environment while we enable the flexibility and reliability  to run and store data of any possible application workload."
@@ -20,6 +20,6 @@ technology3_link = "technology/openvsan"
 
 technology4_title = "0-Downtime"
 technology4_text = "Your IT infrastructure is business-critical and demands proven technology frameworks that are designed for uptime. We deliver 100% uptime"
-technology4_link = "#"
+technology4_link = "technology/mountain-top"
 
 +++
