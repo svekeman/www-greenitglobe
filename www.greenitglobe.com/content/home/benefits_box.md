@@ -19,7 +19,7 @@ benefit3_text = "Cras sit amet nibh libero. Nulla vel metus scelerisque."
 benefit3_link = "#"
 
 benefit4_title = "Flexibility"
-benefit4_text = "Cras sit amet nibh libero. Nulla vel metus scelerisque."
+benefit4_text = "Crash sit amet nibh libero. Nulla vel metus scelerisque."
 benefit4_link = "#"
 
 link = "#"
