@@ -6,7 +6,7 @@ header = "SOLUTIONS"
 
 summary = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptas facere vero ex tempora saepe perspiciatis ducimus sequi animi."
 
-block1_title = "Surveillance Storage"
+block1_title = "Surveillance Storages"
 block1_text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 block1_link = "solutions/surveillance-storage"
 
