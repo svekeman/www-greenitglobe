@@ -4,10 +4,10 @@ title = "technology_box"
 
 header = "TECHNOLOGY"
 
-summary = "Green IT Globe is a software company that delivers disruptive technology frameworks for the deployment of IT infrastructure."
+summary = "Green IT Globe is a software company that delivers disruptive technology frameworks for the development and deployment of reliable and scalable IT infrastructure."
 
 technology1_title = "0-Touch"
-technology1_text = "Our technology simplifies both the management and scalability of your IT infratructure. Hands-off but always available!"
+technology1_text = "We believe in extreme automation, which simplifies the management and scalability of your IT infratructure. Completely hands-off but always available!"
 technology1_link = "technology/mountain-top"
 
 technology2_title = "0-Desktop"
