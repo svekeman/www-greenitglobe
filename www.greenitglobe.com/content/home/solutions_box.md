@@ -4,9 +4,9 @@ title = "solutions_box"
 
 header = "SOLUTIONS"
 
-summary = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam voluptas facere vero ex tempora saepe perspiciatis ducimus sequi animi."
+summary = "Green IT Globe has been at the forefront of innovating and changing the storage and cloud technology landscape in the last 15 years with disruptive solutions for our customers."
 
-block1_title = "Surveillance Storages"
+block1_title = "Surveillance Storage"
 block1_text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
 block1_link = "solutions/surveillance-storage"
 
