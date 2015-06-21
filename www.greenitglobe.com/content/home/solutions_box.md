@@ -15,7 +15,7 @@ block2_text = "Storage or compute scale-out building blocks for private and publ
 block2_link = "solutions/hyperscale-cloud"
 
 block3_title = "Hypersecure Workspaces"
-block3_text = "Application security and data protection solution which accelerates and centralizes the deployment and secure access of enterprise apps to any device."
+block3_text = "Application security and data protection solutions which accelerate and centralize the deployment and secure access of enterprise apps to any device."
 block3_link = "solutions/hypersecure-workspaces"
 
 +++
