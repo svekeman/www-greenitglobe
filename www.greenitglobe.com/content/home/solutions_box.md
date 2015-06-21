@@ -6,19 +6,16 @@ header = "SOLUTIONS"
 
 summary = "Green IT Globe has been at the forefront of innovating and changing the storage and cloud technology landscape in the last 15 years with disruptive solutions for our customers."
 
-block1_title = "Surveillance Storage"
-block1_text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-block1_link = "solutions/surveillance-storage"
+block1_title = "Hyperconverged Storage"
+block1_text = "Voluptatem ad provident non repudiandae beatae cupiditate amet reiciendis lorem dolor consectetur."
+block1_link = "solutions/hyperconverged-storage"
 
-block2_title = "Server Virtualization"
-block2_text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-block2_link = "solutions/server-virtualization"
+block2_title = "Hyperscale Cloud"
+block2_text = "Iure sequi unde hic. Sapiente quaerat sequi inventore veritatis cumque lorem ipsum dolor sit amet, consectetur."
+block2_link = "solutions/hyperscale-cloud"
 
-block3_title = "Big data Solutions"
-block3_text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-block3_link = "#"
+block3_title = "Hypersecure Workspaces"
+block3_text = "Inventore dolores aut laboriosam cum consequuntur delectus sequi lorem ipsum dolor sit amet, consectetur."
+block3_link = "solutions/hypersecure-workspaces"
 
-block4_title = "Public Telco Cloud"
-block4_text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-block4_link = "#"
 +++
