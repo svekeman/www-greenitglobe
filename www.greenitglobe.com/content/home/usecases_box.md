@@ -14,7 +14,7 @@ block2_title = "Converged Infrastructure"
 block2_text = "The total cost of ownership for an IT environment is driven down with at least 80% from making 90% of existing IT layers obsolete."
 block2_link = "solutions/server-virtualization"
 
-block3_title = "Big Data Solutions"
+block3_title = "Big Data Analytics"
 block3_text = "Crunching large datasets require flexible and high performance compute capacity. We deliver at least  2 million IOPS in a 10 node cluster."
 block3_link = "solutions/surveillance-storage"
 
