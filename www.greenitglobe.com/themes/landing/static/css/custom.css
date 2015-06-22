@@ -1,6 +1,2 @@
-.text-dark, .text-dark h4 { color: #777777;}
-.text-white { color: #FFF;}
-.bg-white {background-color: #FFF;}
-.slides .large_white { font-weight: bold;}
-.iconCustom {display: inline-table; vertical-align: middle;}
-.langPic { width: 30px; float: right;}
+.image-box.team-member.shadow.mb-20 img { width: 278px;height: 278px;  -webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);filter: grayscale(100%); }
+.clients .client-image { width: 262px;height: 60px;   padding-top: 15px;margin: 0}

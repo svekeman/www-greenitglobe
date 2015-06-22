@@ -12,7 +12,7 @@ social1_link = "https://www.linkedin.com/company/green-it-globe"
 social2_title = "twitter"
 social2_link = "https://www.twitter.com/greenitglobe"
 
-social3_title = "google-plus"
+social3_title = "youtube-play"
 social3_link = "https://www.linkedin.com/company/green-it-globe"
 
 social4_title = "linkedin"
