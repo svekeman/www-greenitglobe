@@ -4,7 +4,7 @@ title = "benefits_box"
 
 header = "BENEFITS"
 
-summary = "We are a technology company taking a fundamental different approach when thinking about automation, sustainability and scalability."
+summary = "Green IT Globe is a technology company taking a fundamental different approach towards end-to-end automation, extreme sustainability and ultra-scalability. We don't accept any boundaries which limits our innovation."
 
 benefit1_title = "Scalability"
 benefit1_text = "We approach scalability from creating more resource efficiency and effective use, not from adding more hardware and cost!"
