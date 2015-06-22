@@ -4,7 +4,7 @@ title = "team_box"
 
 header = "TEAM"
 
-summary = "A world-class European team with experience in growing disruptive technology companies in the last 15 years is leading Green IT Globe."
+summary = "A world-class European team with more than 15 years of experience in growing disruptive technology companies is leading Green IT Globe."
 
 person1_name = "Kristof De Spiegeleer"
 person1_position = "CEO"
