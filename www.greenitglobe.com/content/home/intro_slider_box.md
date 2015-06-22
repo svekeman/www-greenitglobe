@@ -9,5 +9,5 @@ slide2_title = "Sustainable IT"
 slide2_text = "Green IT Globe runs your high-capacity datacenter with 80% less power and clean energy."
 
 slide3_title = "Scalable IT"
-slide3_text = "Green IT Globe builds the most-efficient data centers in the world, even in containers."
+slide3_text = "Green IT Globe builds the most-efficient data centers in the world from desert to jungle."
 +++
