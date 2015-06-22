@@ -15,10 +15,10 @@ block2_text = "The total cost of ownership for an integrated IT environment is d
 block2_link = "solutions/server-virtualization"
 
 block3_title = "Big Data Solutions"
-block3_text = "Crunching large datasets require flexible and high performance compute capacity. We deliver a minimal of 2 million IOPS in a 10 node cluster."
+block3_text = "Crunching large datasets require flexible and high performance compute capacity. We deliver a minimal of 2 million IOPS in a 10 node cluster configuration."
 block3_link = "#"
 
 block4_title = "Public Telco Cloud"
-block4_text = "Green IT Globe delivers the full cloud stack with the highest levels of automation and performance enabling telco's to provide new cloud services."
+block4_text = "Green IT Globe delivers the full cloud stack with the highest levels of automation and performance enabling service providers to provide new cloud services."
 block4_link = "#"
 +++
