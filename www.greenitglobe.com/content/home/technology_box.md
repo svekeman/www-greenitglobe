@@ -4,7 +4,7 @@ title = "technology_box"
 
 header = "TECHNOLOGY"
 
-summary = "Green IT Globe is a software company that delivers disruptive and open source technology frameworks for the development and deployment of reliable and scalable IT infrastructure, for any customer with any possible partner."
+summary = "Green IT Globe is a software company that delivers disruptive and open source technology to teploy reliable and scalable IT for any customer and with any partner."
 
 technology1_title = "0-Touch"
 technology1_text = "We believe in extreme automation, which simplifies the management and scalability of your IT infratructure. Completely hands-off and always available!"
