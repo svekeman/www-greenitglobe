@@ -4,21 +4,21 @@ title = "footer_box"
 
 header = "Find Us"
 
-summary = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium odio voluptatem necessitatibus illo vel dolorum soluta."
+summary = "Feel free to visit our company where we can demonstrate our products and introduce our team. We are situated near Business Bay Bridge Dubai, only 5 minutes from Festival City."
 
 social1_title = "facebook"
-social1_link = "#"
+social1_link = "https://www.linkedin.com/company/green-it-globe"
 
 social2_title = "twitter"
-social2_link = "#"
+social2_link = "https://www.twitter.com/greenitglobe"
 
 social3_title = "google-plus"
-social3_link = "#"
+social3_link = "https://www.linkedin.com/company/green-it-globe"
 
 social4_title = "linkedin"
-social4_link = "#"
+social4_link = "https://www.linkedin.com/company/green-it-globe"
 
-location = "Al Jadaf Port, Warehouse 88-89"
+location = "Al Jadaf Port, Warehouse 88-89, Dubai, UAE"
 phone = "+971 4 3706036"
 email = "info@greenitglobe.com"
 
