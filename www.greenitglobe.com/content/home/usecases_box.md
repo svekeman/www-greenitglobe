@@ -16,9 +16,9 @@ block2_link = "solutions/server-virtualization"
 
 block3_title = "Big Data Solutions"
 block3_text = "Crunching large datasets require flexible and high performance compute capacity. We deliver at least  2 million IOPS in a 10 node cluster."
-block3_link = "#"
+block3_link = "solutions/surveillance-storage"
 
 block4_title = "Public Telco Cloud"
 block4_text = "Green IT Globe delivers the full cloud stack with the highest levels of automation and performance for high demanding service providers."
-block4_link = "#"
+block4_link = "solutions/surveillance-storage"
 +++
