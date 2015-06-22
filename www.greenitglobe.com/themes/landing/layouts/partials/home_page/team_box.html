@@ -1,3 +1,6 @@
+<style type="text/css">
+    h4 { color: white;}
+</style>
 {{ range $element :=  .Data.Pages }}
   {{ if eq .Section "home" }}
         {{ if eq .Title "team_box" }}
@@ -19,8 +22,8 @@
                                         <a href="{{ .Params.person1_pic }}" class="popup-img overlay-link" title="{{ .Params.person1_name }} - {{ .Params.person1_position }}"><i class="icon-plus-1"></i></a>
                                         <div class="overlay-bottom">
                                             <div class="text">
-                                                <h3 class="title margin-clear">{{ .Params.person1_name }}</h3>
                                                 <p class="margin-clear">{{ .Params.person1_position }}</p>
+                                                <h4 class="title margin-clear">{{ .Params.person1_name }}</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -33,8 +36,8 @@
                                         <a href="{{ .Params.person2_pic }}" class="popup-img overlay-link" title="{{ .Params.person2_name }} - {{ .Params.person2_position }}"><i class="icon-plus-1"></i></a>
                                         <div class="overlay-bottom">
                                             <div class="text">
-                                                <h3 class="title margin-clear">{{ .Params.person2_name }}</h3>
                                                 <p class="margin-clear">{{ .Params.person2_position }}</p>
+                                                <h4 class="title margin-clear">{{ .Params.person2_name }}</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -47,8 +50,8 @@
                                         <a href="{{ .Params.person3_pic }}" class="popup-img overlay-link" title="{{ .Params.person3_name }} - {{ .Params.person3_position }}"><i class="icon-plus-1"></i></a>
                                         <div class="overlay-bottom">
                                             <div class="text">
-                                                <h3 class="title margin-clear">{{ .Params.person3_name }}</h3>
                                                 <p class="margin-clear">{{ .Params.person3_position }}</p>
+                                                <h4 class="title margin-clear">{{ .Params.person3_name }}</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -61,8 +64,8 @@
                                         <a href="{{ .Params.person4_pic }}" class="popup-img overlay-link" title="{{ .Params.person4_name }} - {{ .Params.person4_position }}"><i class="icon-plus-1"></i></a>
                                         <div class="overlay-bottom">
                                             <div class="text">
-                                                <h3 class="title margin-clear">{{ .Params.person4_name }}</h3>
                                                 <p class="margin-clear">{{ .Params.person4_position }}</p>
+                                                <h4 class="title margin-clear">{{ .Params.person4_name }}</h4>
                                             </div>
                                         </div>
                                     </div>
