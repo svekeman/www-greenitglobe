@@ -10,7 +10,7 @@ person1_name = "Kristof De Spiegeleer"
 person1_position = "CEO"
 person1_pic = "images/team-member-1.jpg"
 
-person2_name = "Weynand Kuijpers"
+person2_name = "Weynand    Kuijpers"
 person2_position = "COO"
 person2_pic = "images/team-member-2.jpg"
 
