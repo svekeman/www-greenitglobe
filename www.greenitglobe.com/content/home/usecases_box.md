@@ -11,7 +11,7 @@ block1_text = "Our software defined storage solution provide you with 10x more e
 block1_link = "solutions/surveillance-storage"
 
 block2_title = "Converged Infrastructure"
-block2_text = "The total cost of ownership for an IT environment is driven down with at least 80% from making 90% of existing IT layers obsolete."
+block2_text = "The total cost of ownership for your IT is driven down with at least 80% from making 90% of existing IT layers obsolete."
 block2_link = "solutions/server-virtualization"
 
 block3_title = "Big Data Analytics"
