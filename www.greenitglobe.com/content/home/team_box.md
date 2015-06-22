@@ -4,21 +4,21 @@ title = "team_box"
 
 header = "TEAM"
 
-summary = "Atque ducimus velit, earum quidem, iusto dolorem. Ex ipsam totam quas blanditiis, pariatur maxime ipsa iste, doloremque neque doloribus, error. Corrupti, tenetur."
+summary = "A world-class European team with experience in growing disruptive technology companies in the last 15 years is leading Green IT Globe."
 
-person1_name = "Person 1"
-person1_position = "CTO"
+person1_name = "Kristof De Spiegeleer"
+person1_position = "CEO"
 person1_pic = "images/team-member-1.jpg"
 
-person2_name = "Person 2"
-person2_position = "CEO"
+person2_name = "Weynand Kuijpers"
+person2_position = "COO"
 person2_pic = "images/team-member-2.jpg"
 
-person3_name = "Person 3"
+person3_name = "Jan De Landtsheer"
 person3_position = "CTO"
 person3_pic = "images/team-member-3.jpg"
 
-person4_name = "Person 4"
-person4_position = "CEO"
+person4_name = "Sophie De Maesschalck"
+person4_position = "CFO"
 person4_pic = "images/team-member-4.jpg"
 +++
