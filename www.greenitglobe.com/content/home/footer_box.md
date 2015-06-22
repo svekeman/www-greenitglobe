@@ -18,12 +18,9 @@ social3_link = "#"
 social4_title = "linkedin"
 social4_link = "#"
 
-social5_title = "xing"
-social5_link = "#"
+location = "Al Jadaf Port, Warehouse 88-89"
+phone = "+971 4 3706036"
+email = "info@greenitglobe.com"
 
-location = "One infinity loop, 54100"
-phone = "+00 1234567890"
-email = "info@theproject.com"
-
-copy_right = "Copyright © 2015 Green IT Globe. All Rights Reserved"
+copy_right = "Copyright © 2015 Green IT Globe. All Rights Reserved."
 +++
