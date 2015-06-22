@@ -6940,3 +6940,4 @@ h6.media-heading {
 .slides .large_white { font-weight: bold;}
 .iconCustom {display: inline-table; vertical-align: middle;}
 .langPic { width: 30px; float: right;}
+.dropdown-menu {right: 0;left: auto;}

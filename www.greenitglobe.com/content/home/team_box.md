@@ -8,17 +8,17 @@ summary = "A world-class European team with more than 15 years of experience in 
 
 person1_name = "CEO"
 person1_position = "Kristof De Spiegeleer"
-person1_pic = "images/team/Kristof.png"
+person1_pic = "images/Team/Kristof.png"
 
 person2_name = "COO"
 person2_position = "Weynand Kuijpers"
-person2_pic = "images/team-member-1.jpg"
+person2_pic = "images/Team-member-1.jpg"
 
 person3_name = "CTO"
 person3_position = "Jan De Landtsheer"
-person3_pic = "images/team/Jan.jpg"
+person3_pic = "images/Team/Jan.jpg"
 
 person4_name = "CFO"
 person4_position = "Sophie De Maesschalck"
-person4_pic = "images/team/Sophie.jpg"
+person4_pic = "images/Team/Sophie.jpg"
 +++
