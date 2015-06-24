@@ -12,7 +12,7 @@ person1_pic = "images/Team/Kristof.png"
 
 person2_name = "COO"
 person2_position = "Weynand Kuijpers"
-person2_pic = "images/Team-member-1.jpg"
+person2_pic = "images/team-member-1.jpg"
 
 person3_name = "CTO"
 person3_position = "Jan De Landtsheer"
