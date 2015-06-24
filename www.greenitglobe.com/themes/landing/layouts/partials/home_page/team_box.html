@@ -1,5 +1,8 @@
 <style type="text/css">
     h4 { color: white;}
+    .image-box.team-member.shadow.mb-20 img {
+ /* width: 183px;
+  height: 178px;}*/
 </style>
 {{ range $element :=  .Data.Pages }}
   {{ if eq .Section "home" }}
@@ -66,6 +69,66 @@
                                             <div class="text">
                                                 <p class="margin-clear">{{ .Params.person4_position }}</p>
                                                 <h4 class="title margin-clear">{{ .Params.person4_name }}</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row grid-space-10">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="image-box team-member shadow mb-20">
+                                    <div class="overlay-container overlay-visible">
+                                        <img src="{{ .Params.person5_pic }}" alt="">
+                                        <a href="{{ .Params.person5_pic }}" class="popup-img overlay-link" title="{{ .Params.person5_name }} - {{ .Params.person5_position }}"><i class="icon-plus-1"></i></a>
+                                        <div class="overlay-bottom">
+                                            <div class="text">
+                                                <p class="margin-clear">{{ .Params.person5_position }}</p>
+                                                <h4 class="title margin-clear">{{ .Params.person5_name }}</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="image-box team-member shadow mb-20">
+                                    <div class="overlay-container overlay-visible">
+                                        <img src="{{ .Params.person6_pic }}" alt="">
+                                        <a href="{{ .Params.person6_pic }}" class="popup-img overlay-link" title="{{ .Params.person6_name }} - {{ .Params.person6_position }}"><i class="icon-plus-1"></i></a>
+                                        <div class="overlay-bottom">
+                                            <div class="text">
+                                                <p class="margin-clear">{{ .Params.person6_position }}</p>
+                                                <h4 class="title margin-clear">{{ .Params.person6_name }}</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="image-box team-member shadow mb-20">
+                                    <div class="overlay-container overlay-visible">
+                                        <img src="{{ .Params.person7_pic }}" alt="">
+                                        <a href="{{ .Params.person7_pic }}" class="popup-img overlay-link" title="{{ .Params.person7_name }} - {{ .Params.person7_position }}"><i class="icon-plus-1"></i></a>
+                                        <div class="overlay-bottom">
+                                            <div class="text">
+                                                <p class="margin-clear">{{ .Params.person7_position }}</p>
+                                                <h4 class="title margin-clear">{{ .Params.person7_name }}</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="image-box team-member shadow mb-20">
+                                    <div class="overlay-container overlay-visible">
+                                        <img src="{{ .Params.person8_pic }}" alt="">
+                                        <a href="{{ .Params.person8_pic }}" class="popup-img overlay-link" title="{{ .Params.person8_name }} - {{ .Params.person8_position }}"><i class="icon-plus-1"></i></a>
+                                        <div class="overlay-bottom">
+                                            <div class="text">
+                                                <p class="margin-clear">{{ .Params.person8_position }}</p>
+                                                <h4 class="title margin-clear">{{ .Params.person8_name }}</h4>
                                             </div>
                                         </div>
                                     </div>
