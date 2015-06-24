@@ -27,33 +27,55 @@
                       <div class="media-left pr-20"> <a href="{{ .Params.benefit1_link }}"> <span class="icon circle small default-bg"><i class="fa fa-sort-amount-asc"></i> </span> </a> </div>
                       <div class="media-body">
                         <h4 class="media-heading">{{ .Params.benefit1_title }}</h4>
-                        {{ .Params.benefit1_text }} </div>
+                        {{ .Params.benefit1_text }} 
+                        <a href="benefits/scalability" class="link-dark">More
+                    {{ if eq $.Site.LanguageCode "ar" }}
+                    <i class="pl-5 fa fa-angle-double-left"></i></a>
+                    {{else}}
+                    <i class="pl-5 fa fa-angle-double-right"></i></a>
+                    {{end}}
+                        </div>
                     </div>
                     <div class="media">
                       <div class="media-left pr-20"> <a href="{{ .Params.benefit2_link }}"> <span class="icon circle small default-bg"><i class="fa fa-shield"></i> </span> </a> </div>
                       <div class="media-body">
                         <h4 class="media-heading">{{ .Params.benefit2_title }}</h4>
-                        {{ .Params.benefit2_text }} </div>
+                        {{ .Params.benefit2_text }} 
+                        <a href="benefits/security" class="link-dark">More
+                    {{ if eq $.Site.LanguageCode "ar" }}
+                    <i class="pl-5 fa fa-angle-double-left"></i></a>
+                    {{else}}
+                    <i class="pl-5 fa fa-angle-double-right"></i></a>
+                    {{end}}
+                        </div>
                     </div>
                     <div class="media">
                       <div class="media-left pr-20"> <a href="{{ .Params.benefit3_link }}"> <span class="icon circle small default-bg"><i class="fa fa-check"></i> </span> </a> </div>
                       <div class="media-body">
                         <h4 class="media-heading">{{ .Params.benefit3_title }}</h4>
-                        {{ .Params.benefit3_text }} </div>
+                        {{ .Params.benefit3_text }} 
+                        <a href="benefits/availability" class="link-dark">More
+                    {{ if eq $.Site.LanguageCode "ar" }}
+                    <i class="pl-5 fa fa-angle-double-left"></i></a>
+                    {{else}}
+                    <i class="pl-5 fa fa-angle-double-right"></i></a>
+                    {{end}}
+                        </div>
                     </div>
                     <div class="media">
                       <div class="media-left pr-20"> <a href="{{ .Params.benefit4_link }}"> <span class="icon circle small default-bg"><i class="fa fa-random"></i> </span> </a> </div>
                       <div class="media-body">
                         <h4 class="media-heading">{{ .Params.benefit4_title }}</h4>
-                        {{ .Params.benefit4_text }} </div>
-                    </div>
-                    <p><a href="{{ .Params.link }}" class="btn btn-default-transparent btn-animated">Learn More 
+                        {{ .Params.benefit4_text }} 
+                        <a href="benefits/flexibility" class="link-dark">More
                     {{ if eq $.Site.LanguageCode "ar" }}
-                    <i class="fa fa-arrow-left pl-10"></i>
+                    <i class="pl-5 fa fa-angle-double-left"></i></a>
                     {{else}}
-                    <i class="fa fa-arrow-right pl-10"></i>
+                    <i class="pl-5 fa fa-angle-double-right"></i></a>
                     {{end}}
-                    </a></p>
+                        </div>
+                    </div>
+                    
                   </div>
                 </div>
               </div>
