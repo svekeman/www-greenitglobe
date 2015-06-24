@@ -1,8 +1,9 @@
 <style type="text/css">
-    .text h4 { color: white;}
-    .image-box.team-member.shadow.mb-20 img {
- /* width: 183px;
-  height: 178px;}*/}
+    .text h5 { color: white;}
+    .image-box.team-member.shadow.mb-20 img {width: 183px;height: 178px;  margin: 0 auto;}
+    .overlay-container .text {padding: 0 0;}
+    .overlay-bottom, .overlay-top {padding: 3px;}
+    .overlay-visible .overlay-bottom, .overlay-visible .overlay-top {padding-bottom: 4px;}
 </style>
 {{ range $element :=  .Data.Pages }}
   {{ if eq .Section "home" }}
@@ -11,14 +12,14 @@
             <div class="container">
                 <div class="row">
                     <div class="main col-md-12">
-                        <div class="col-md-8 col-md-offset-2">
+                        <div class="col-md-12 ">
                         <h2 class="text-center">{{ .Params.header }}</h2>
                         <div class="separator"></div>
                         <p class="large text-center">{{ .Params.summary }}</p>
                         <br>
                     </div>
                         <div class="row grid-space-10">
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-2 col-sm-4 col-md-offset-2">
                                 <div class="image-box team-member shadow mb-20">
                                     <div class="overlay-container overlay-visible">
                                         <img src="{{ .Params.person1_pic }}" alt="">
@@ -26,13 +27,13 @@
                                         <div class="overlay-bottom">
                                             <div class="text">
                                                 <p class="margin-clear">{{ .Params.person1_position }}</p>
-                                                <h4 class="title margin-clear">{{ .Params.person1_name }}</h4>
+                                                <h5 class="title margin-clear">{{ .Params.person1_name }}</h5>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-2 col-sm-4">
                                 <div class="image-box team-member shadow mb-20">
                                     <div class="overlay-container overlay-visible">
                                         <img src="{{ .Params.person2_pic }}" alt="">
@@ -40,13 +41,13 @@
                                         <div class="overlay-bottom">
                                             <div class="text">
                                                 <p class="margin-clear">{{ .Params.person2_position }}</p>
-                                                <h4 class="title margin-clear">{{ .Params.person2_name }}</h4>
+                                                <h5 class="title margin-clear">{{ .Params.person2_name }}</h5>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-2 col-sm-4">
                                 <div class="image-box team-member shadow mb-20">
                                     <div class="overlay-container overlay-visible">
                                         <img src="{{ .Params.person3_pic }}" alt="">
@@ -54,13 +55,13 @@
                                         <div class="overlay-bottom">
                                             <div class="text">
                                                 <p class="margin-clear">{{ .Params.person3_position }}</p>
-                                                <h4 class="title margin-clear">{{ .Params.person3_name }}</h4>
+                                                <h5 class="title margin-clear">{{ .Params.person3_name }}</h5>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-2 col-sm-4">
                                 <div class="image-box team-member shadow mb-20">
                                     <div class="overlay-container overlay-visible">
                                         <img src="{{ .Params.person4_pic }}" alt="">
@@ -68,7 +69,7 @@
                                         <div class="overlay-bottom">
                                             <div class="text">
                                                 <p class="margin-clear">{{ .Params.person4_position }}</p>
-                                                <h4 class="title margin-clear">{{ .Params.person4_name }}</h4>
+                                                <h5 class="title margin-clear">{{ .Params.person4_name }}</h5>
                                             </div>
                                         </div>
                                     </div>
@@ -78,7 +79,7 @@
 
 
                         <div class="row grid-space-10">
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-2 col-sm-4 col-md-offset-4">
                                 <div class="image-box team-member shadow mb-20">
                                     <div class="overlay-container overlay-visible">
                                         <img src="{{ .Params.person5_pic }}" alt="">
@@ -86,13 +87,13 @@
                                         <div class="overlay-bottom">
                                             <div class="text">
                                                 <p class="margin-clear">{{ .Params.person5_position }}</p>
-                                                <h4 class="title margin-clear">{{ .Params.person5_name }}</h4>
+                                                <h5 class="title margin-clear">{{ .Params.person5_name }}</h5>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6">
+                            <div class="col-md-2 col-sm-4">
                                 <div class="image-box team-member shadow mb-20">
                                     <div class="overlay-container overlay-visible">
                                         <img src="{{ .Params.person6_pic }}" alt="">
@@ -100,7 +101,7 @@
                                         <div class="overlay-bottom">
                                             <div class="text">
                                                 <p class="margin-clear">{{ .Params.person6_position }}</p>
-                                                <h4 class="title margin-clear">{{ .Params.person6_name }}</h4>
+                                                <h5 class="title margin-clear">{{ .Params.person6_name }}</h5>
                                             </div>
                                         </div>
                                     </div>
