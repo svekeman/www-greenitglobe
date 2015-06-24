@@ -22,11 +22,11 @@ person4_name = "CFO"
 person4_position = "Sophie De Maesschalck"
 person4_pic = "images/Team/Sophie.jpg"
 
-person5_name = "CFO"
+person5_name = "Middle East"
 person5_position = "Adnan Fatayerji"
 person5_pic = "images/Team/Adnan.jpg"
 
-person6_name = "CFO"
+person6_name = "Marketing"
 person6_position = "Sacha Vekeman"
 person6_pic = "images/Team/Sacha.png"
 
