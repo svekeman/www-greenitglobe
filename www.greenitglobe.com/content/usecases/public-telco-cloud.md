@@ -1,18 +1,18 @@
 +++
 disc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnam ea necessitatibus, officiis voluptas odit! Aperiam omnis, cupiditate laudantium velit nostrum, exercitationem accusamus, possimus soluta illo deserunt tempora qui. "
-title = "Scalability"
+title = "Public Telco Cloud"
 thin = "Why"
 +++
 
 
-### Server virtualization!
+### Surveillance storage!
 
-* Scalability1
+* Surveillance storage1
 
-* Scalability2
+* Surveillance storage2
 
-* Scalability1
+* Surveillance storage1
 
-* Scalability2
+* Surveillance storage2
 
 

@@ -1,18 +1,16 @@
 +++
 disc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnam ea necessitatibus, officiis voluptas odit! Aperiam omnis, cupiditate laudantium velit nostrum, exercitationem accusamus, possimus soluta illo deserunt tempora qui. "
-title = "Scalability"
+title = "hyperconverged-storage"
 thin = "Why"
 +++
 
 
-### Server virtualization!
+### test page1
 
-* Scalability1
+* test page1
 
-* Scalability2
+* test page1
 
-* Scalability1
+* test page1
 
-* Scalability2
-
-
+* test page1

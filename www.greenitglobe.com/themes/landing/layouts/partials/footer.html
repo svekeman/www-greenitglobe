@@ -6,6 +6,20 @@
                     <div class="col-md-3">
                       <h2 class="title">Site map</h2>
                       <div class="separator-2"></div>
+                      <h6>Solutions</h6>
+                        <ul class="list">
+                          {{ range $element :=  $.Site.Pages }}
+                            {{ if eq .Section "solutions" }}
+                                  <li><a href="{{ $element.RelPermalink }} ">
+                                  {{ if eq $.Site.LanguageCode "ar" }}
+                                  <i class="icon-left-open"></i>
+                                  {{else}}
+                                  <i class="icon-right-open"></i>
+                                  {{end}}
+                                  {{ $element.Title }}</a></li>
+                            {{ end }}
+                          {{ end }}
+                        </ul>
                         <h6>Use cases</h6>
                         <ul class="list">
                           {{ range $element :=  $.Site.Pages }}
@@ -20,7 +34,11 @@
                             {{ end }}
                           {{ end }}
                         </ul>
-                        <h6>Benefits</h6>
+                        
+                          
+                    </div>
+                    <div class="col-md-3">
+                        <h6 style="padding-top: 40px;" >Benefits</h6>
                         <ul class="list">
                           {{ range $element :=  $.Site.Pages }}
                             {{ if eq .Section "benefits" }}
@@ -34,23 +52,6 @@
                             {{ end }}
                           {{ end }}
                         </ul>
-                        <h6>Solutions</h6>
-                        <ul class="list">
-                          {{ range $element :=  $.Site.Pages }}
-                            {{ if eq .Section "solutions" }}
-                                  <li><a href="{{ $element.RelPermalink }} ">
-                                  {{ if eq $.Site.LanguageCode "ar" }}
-                                  <i class="icon-left-open"></i>
-                                  {{else}}
-                                  <i class="icon-right-open"></i>
-                                  {{end}}
-                                  {{ $element.Title }}</a></li>
-                            {{ end }}
-                          {{ end }}
-                        </ul>  
-                    </div>
-                    <div class="col-md-3">
-                      <h3>&nbsp;</h3>
                       <h6>Technology</h6>
                       <ul class="list">
                           {{ range $element :=  $.Site.Pages }}
@@ -66,20 +67,7 @@
                           {{ end }}
                         </ul>    
 
-                      <h6>Company</h6>
-                      <ul class="list">
-                          {{ range $element :=  $.Site.Pages }}
-                            {{ if eq .Section "company" }}
-                                  <li><a href="{{ $element.RelPermalink }} ">
-                                  {{ if eq $.Site.LanguageCode "ar" }}
-                                  <i class="icon-left-open"></i>
-                                  {{else}}
-                                  <i class="icon-right-open"></i>
-                                  {{end}}
-                                  {{ $element.Title }}</a></li>
-                            {{ end }}
-                          {{ end }}
-                        </ul>                             
+                                                 
                     </div>
                     
                     {{ range $element :=  $.Site.Pages }}

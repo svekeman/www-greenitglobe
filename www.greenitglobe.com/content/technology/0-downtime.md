@@ -1,18 +1,18 @@
 +++
 disc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnam ea necessitatibus, officiis voluptas odit! Aperiam omnis, cupiditate laudantium velit nostrum, exercitationem accusamus, possimus soluta illo deserunt tempora qui. "
-title = "Scalability"
+title = "0-Downtime"
 thin = "Why"
 +++
 
 
-### Server virtualization!
+### openvsan!
 
-* Scalability1
+* openvsan1
 
-* Scalability2
+* openvsan2
 
-* Scalability1
+* openvsan1
 
-* Scalability2
+* openvsan2
 
 
