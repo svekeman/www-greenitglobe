@@ -23,11 +23,20 @@ person4_position = "Sophie De Maesschalck"
 person4_pic = "images/Team/Sophie.jpg"
 
 person5_name = "CFO"
-person5_position = "Adnan Fatayerji"
-person5_pic = "images/Team/Adnan.jpg"
+person5_position = "Sacha Vekeman"
+person5_pic = "images/Team/Sacha.png"
 
 person6_name = "CFO"
-person6_position = "Sacha Vekeman"
-person6_pic = "images/Team/Sacha.png"
+person6_position = "Adnan Fatayerji"
+person6_pic = "images/Team/Adnan.jpg"
+
+
+person7_name = "CFO"
+person7_position = "Owen"
+person7_pic = "images/Team/Owen.jpg"
+
+person8_name = "CFO"
+person8_position = "Andrey"
+person8_pic = "images/Team/Andrey.jpg"
 
 +++
