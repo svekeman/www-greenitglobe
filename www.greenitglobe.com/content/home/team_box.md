@@ -30,4 +30,11 @@ person6_name = "Marketing"
 person6_position = "Sacha Vekeman"
 person6_pic = "images/Team/Sacha.png"
 
+person7_name = "CFO"
+person7_position = "Owen"
+person7_pic = "images/Team/Owen.jpg"
+
+person8_name = "CFO"
+person8_position = "Andrey Yakimov"
+person8_pic = "images/Team/Andrey.jpg"
 +++
