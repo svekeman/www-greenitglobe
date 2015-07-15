@@ -8,12 +8,12 @@ thin = "Why"
 +++
 
 
-### Characteristics
+### Key items
 
-* test page2
+* Compute scaling
 
-* test page2
+* Storage scaling
 
-* test page2
+* Distributed
 
-* test page2
+* Cloud
