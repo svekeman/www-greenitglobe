@@ -1,18 +1,16 @@
 +++
-disc = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi perferendis magnam ea necessitatibus, officiis voluptas odit! Aperiam omnis, cupiditate laudantium velit nostrum, exercitationem accusamus, possimus soluta illo deserunt tempora qui. "
+disc = "Hyperscale represents the ability of compute architecture to scale appropriately compute, memory, networking, and storage resources of a large distributed computing environment in a single location.  Hyperscale computing is necessary in order to build a robust and scalable cloud, big data, map reduce, or distributed storage system and is often associated with the infrastructure required to run large distributed sites such as Facebook, Google, Microsoft or Amazon."
 title = "Hyperscale Cloud"
 thin = "Why"
 +++
 
 
-### test page2
+### Key items
 
-* test page2
+* Compute scaling
 
-* test page2
+* Storage scaling
 
-* test page2
+* Distributed
 
-* test page2
-
-
+* Cloud
