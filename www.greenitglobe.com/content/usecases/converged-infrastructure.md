@@ -1,15 +1,5 @@
 +++
-disc = "Gartner defines Hyper Converged Infrastructure Solutions (HCIS) encompasses 
-software-centric architectures that integrate  compute, storage and networking on commodity
-hardware. This represents a cost-effective,  well-architected infrastructure solution that is 
-simple to deploy, manage and scale that also consumes the fewest technical resources possible. 
-HCIS solutions are built and delivered as a preconfigured appliance, are sold with provisioning
-and management software, and include vendor support.
-
-A key challenge for IT departments is  that Infrastructure complexity and maintenance 
-continue to negatively impact the agility of organisations to adopt new ways of delivering IT:  
-Hyper Converged Infrastructure solutions.  Highly virtualized midsize enterprises with fewer than
-200 virtual machines should opt for hyperconverged infrastructure."
+disc = "Gartner defines Hyper Converged Infrastructure Solutions (HCIS) encompasses software-centric architectures that integrate  compute, storage and networking on commodity hardware. This represents a cost-effective,  well-architected infrastructure solution that is simple to deploy, manage and scale that also consumes the fewest technical resources possible. HCIS solutions are built and delivered as a preconfigured appliance, are sold with provisioning and management software, and include vendor support. A key challenge for IT departments is  that Infrastructure complexity and maintenance continue to negatively impact the agility of organisations to adopt new ways of delivering IT:  Hyper Converged Infrastructure solutions.  Highly virtualized midsize enterprises with fewer than 200 virtual machines should opt for hyperconverged infrastructure."
 title = "Converged Infrastructure"
 thin = "Why"
 +++
