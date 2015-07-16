@@ -2,7 +2,7 @@
 #Don't remove title!
 title = "usecases_box"
 
-header = "use cases"
+header = "Use Cases"
 
 summary = "We are committed to deliver the most adapted solution for any kind of use case which requires a unique approach to scalability and technology integration."
 
@@ -15,10 +15,10 @@ block2_text = "The total cost of ownership for your IT is driven down with at le
 block2_link = "usecases/converged-infrastructure"
 
 block3_title = "Big Data Analytics"
-block3_text = "Crunching large datasets require flexible and high performance compute capacity. We deliver at least  2 million IOPS in a 10 node cluster."
+block3_text = "Crunching large datasets require flexible and high performance compute capacity. Our technology delivera at least 2 million IOPS in a 10 node cluster."
 block3_link = "usecases/big-data-analytics"
 
 block4_title = "Public Telco Cloud"
-block4_text = "Green IT Globe delivers the full cloud stack with the highest levels of automation and performance for high demanding service providers."
+block4_text = "Green IT Globe delivers the full cloud stack with the highest levels of automation and performance in de industry for demanding service providers."
 block4_link = "usecases/public-telco-cloud"
 +++

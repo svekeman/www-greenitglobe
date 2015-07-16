@@ -1,5 +1,5 @@
 +++
-disc = "A hypersecure worksapce keeps everything safe where you want it: in a central secured cloud envrionment.  Access to your data is SSL-encrypted, password protected, controlled and auditable.  That way, confidential data and high-value intellectual property is available anywhere while being kept safe inside the company. No more IT security nightmares, ever.. "
+disc = "A hypersecure worksapce keeps everything safe where you want it: in a central secured cloud envrionment.  Access to your data is SSL-encrypted, password protected and 100%  controlled and auditable.  That way, confidential data and high-value intellectual property is available anywhere while being kept safe inside the company. No more IT security nightmares, ever.. "
 title = "Hypersecure Workspaces"
 thin = "Why"
 +++

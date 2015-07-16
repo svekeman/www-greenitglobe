@@ -4,7 +4,7 @@ title = "footer_box"
 
 header = "Find Us"
 
-summary = "Feel free to visit our offices in Dubai where we can demonstrate our products and introduce our team. We are situated near Business Bay Bridge Dubai, only 5 minutes from Festival City."
+summary = "Feel free to visit our offices in Dubai where we can demonstrate our products and introduce our team. We are situated near Business Bay Bridge Dubai, only 5 minutes from Festival City and 15 minutes from Dubai International Airport."
 
 social1_title = "facebook"
 social1_link = "https://www.linkedin.com/company/green-it-globe"
