@@ -1,6 +1,5 @@
 +++
-disc = "Security is a very important aspect of all IT related technologies and services these days.  We live in a world where
-information dominates t."
+disc = "Security is a very important aspect of all IT related technologies and services these days.  We live in a world where information is key to business success."
 title = "Security"
 thin = "Why"
 +++
