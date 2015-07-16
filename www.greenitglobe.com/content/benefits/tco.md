@@ -1,11 +1,5 @@
 +++
-disc = "Today, hyperconverged infrastructure solutions natively collapse core storage, computing, and storage networking 
-functions into a single software solution or appliance. The hyperconverged appliance thus comprises of a 
-distributed software stack, which runs on a single or multiple server nodes that constitute a 
-cluster. No more integration work needs to be done, no more maintenance on seperated technologies and functions like compute,
-storage and networking.  Your IT resources are freed up to condifer and plan how IT can be a business enabler and not just a 
-necessity.  The lower TCO does not come forward in actual money spend but also through benefits and focus of the people
-involved in the"
+disc = "Today, hyperconverged infrastructure solutions natively collapse core storage, computing, and storage networking functions into a single software solution or appliance. The hyperconverged appliance thus comprises of a distributed software stack, which runs on a single or multiple server nodes that constitute a cluster. No more integration work needs to be done, no more maintenance on seperated technologies and functions like compute, storage and networking.  Your IT resources are freed up to condifer and plan how IT can be a business enabler and not just a necessity.  The lower TCO does not come forward in actual money spend but also through benefits and focus of the people involved."
 title = "Total cost of ownership "
 thin = "Why"
 +++
