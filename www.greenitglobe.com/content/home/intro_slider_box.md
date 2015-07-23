@@ -2,12 +2,18 @@
 #Don't remove title!
 title = "intro_slider_box"
 
-slide1_title = "Autonomous IT"
-slide1_text = "Green IT Globe develops autonomous 0-Touch IT systems that think for you."
+slide2_title = "Absolute Green"
+slide2_text = "Green IT Globe builds solar powered datacenters with zero carbon emissions."
 
-slide2_title = "Sustainable IT"
-slide2_text = "Green IT Globe runs your high-capacity datacenter with 80% less power and clean energy."
+slide3_title = "Long-term Savings"
+slide3_text = "Your IT is delivered with the lowest total cost of ownership in the market."
 
-slide3_title = "Scalable IT"
-slide3_text = "Green IT Globe builds the most-efficient data centers in the world, wherever you want it."
+slide1_title = "Extreme Performance"
+slide1_text = "We deliver high performance compute nodes capable of running 200,000 IOPS."
+
+slide4_title = "Self Healing IT"
+slide4_text = "Local running zero-touch systems that never need any hardware replacement."
+
+slide5_title = "Guaranteed Security"
+slide5_text = "Green IT Globe owns and controls 100% of all software and intellectual property"
 +++
