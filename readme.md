@@ -19,4 +19,4 @@ Russian content:
 [www.greenitglobe.com/content-russian](www.greenitglobe.com/content-russian)
 
 ### Home page
-![](/www.greenitglobe.com/static/GIG-doc.jpg)
+![](https://git.aydo.com/static-websites/new-gig/raw/master/www.greenitglobe.com/static/GIG-doc.jpg)
