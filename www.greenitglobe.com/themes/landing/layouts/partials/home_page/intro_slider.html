@@ -6,7 +6,8 @@
             {{ range $element :=  .Site.Pages }}
                 {{ if eq .Section "home" }}
                     {{ if eq .Title "intro_slider_box" }}
-                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide1_link }}"><img src="/images/slider1.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
+                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <img src="{{ .Params.slide1_image }}" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+                        <a style="display: block;" href="{{ .Params.slide1_link }}">
                           <div class="tp-caption dark-translucent-bg"
                                                 data-x="center"
                                                 data-y="bottom"
@@ -41,9 +42,10 @@
                                                 data-voffset="100"
                                                 data-speed="500"
                                                 data-easing="easeOutQuad"
-                                                data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
+                                                data-endspeed="200"> <a style="display: block;" href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div></a>
                         </li>
-                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide2_link }}"><img src="/images/slider2.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
+                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <img src="{{ .Params.slide2_image }}" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+                        <a style="display: block;" href="{{ .Params.slide2_link }}">
                           <div class="tp-caption dark-translucent-bg"
                                                 data-x="center"
                                                 data-y="bottom"
@@ -78,9 +80,10 @@
                                                 data-voffset="100"
                                                 data-speed="500"
                                                 data-easing="easeOutQuad"
-                                                data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
+                                                data-endspeed="200"> <a style="display: block;" href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div></a>
                         </li>
-                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide3_link }}"><img src="/images/slider3.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
+                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <img src="{{ .Params.slide3_image }}" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+                        <a style="display: block;" href="{{ .Params.slide3_link }}">
                           <div class="tp-caption dark-translucent-bg"
                                                 data-x="center"
                                                 data-y="bottom"
@@ -115,9 +118,10 @@
                                                 data-voffset="100"
                                                 data-speed="500"
                                                 data-easing="easeOutQuad"
-                                                data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
+                                                data-endspeed="200"> <a style="display: block;" href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div></a>
                         </li>
-                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide4_link }}"><img src="/images/slider4.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
+                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <img src="{{ .Params.slide4_image }}" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+                        <a style="display: block;" href="{{ .Params.slide4_link }}">
                           <div class="tp-caption dark-translucent-bg"
                                                 data-x="center"
                                                 data-y="bottom"
@@ -152,9 +156,10 @@
                                                 data-voffset="100"
                                                 data-speed="500"
                                                 data-easing="easeOutQuad"
-                                                data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
+                                                data-endspeed="200"> <a style="display: block;" href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div></a>
                         </li>
-                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide5_link }}"><img src="/images/slider5.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
+                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <img src="{{ .Params.slide5_image }}" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover">
+                        <a style="display: block;" href="{{ .Params.slide5_link }}">
                           <div class="tp-caption dark-translucent-bg"
                                                 data-x="center"
                                                 data-y="bottom"
@@ -189,7 +194,7 @@
                                                 data-voffset="100"
                                                 data-speed="500"
                                                 data-easing="easeOutQuad"
-                                                data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
+                                                data-endspeed="200"> <a style="display: block;" href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div></a>
                         </li>
                     {{ end }}
                 {{ end }}
