@@ -3,16 +3,16 @@
       <div class="slider-banner-container">
         <div class="slider-banner-fullscreen">
           <ul class="slides">
-            {{ range $element :=  .Data.Pages }}
+            {{ range $element :=  .Site.Pages }}
                 {{ if eq .Section "home" }}
                     {{ if eq .Title "intro_slider_box" }}
-                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide1_link }}"><img src="images/slider1.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
+                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide1_link }}"><img src="/images/slider1.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
                           <div class="tp-caption dark-translucent-bg"
                                                 data-x="center"
                                                 data-y="bottom"
                                                 data-speed="500"
                                                 data-easing="easeOutQuad"
-                                                data-start="0"> </div>             
+                                                data-start="0"> </div>
                           <div style="font-size: 47px;" style="font-size: 47px;" class="tp-caption sft fadeout text-center large_white"
                                                 data-x="center"
                                                 data-y="210"
@@ -21,7 +21,7 @@
                                                 data-start="0"
                                                 >
                             {{ .Params.slide1_title }} </div>
-                          
+
                           <div class="tp-caption ZoomIn fadeout text-center tp-resizeme large_white"
                                                 data-x="center"
                                                 data-y="250"
@@ -43,13 +43,13 @@
                                                 data-easing="easeOutQuad"
                                                 data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
                         </li>
-                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide2_link }}"><img src="images/slider2.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
+                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide2_link }}"><img src="/images/slider2.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
                           <div class="tp-caption dark-translucent-bg"
                                                 data-x="center"
                                                 data-y="bottom"
                                                 data-speed="500"
                                                 data-easing="easeOutQuad"
-                                                data-start="0"> </div>             
+                                                data-start="0"> </div>
                           <div style="font-size: 47px;" class="tp-caption sft fadeout text-center large_white"
                                                 data-x="center"
                                                 data-y="220"
@@ -58,7 +58,7 @@
                                                 data-start="0"
                                                 >
                             {{ .Params.slide2_title }} </div>
-                          
+
                           <div class="tp-caption ZoomIn fadeout text-center tp-resizeme large_white"
                                                 data-x="center"
                                                 data-y="250"
@@ -80,13 +80,13 @@
                                                 data-easing="easeOutQuad"
                                                 data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
                         </li>
-                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide3_link }}"><img src="images/slider3.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
+                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide3_link }}"><img src="/images/slider3.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
                           <div class="tp-caption dark-translucent-bg"
                                                 data-x="center"
                                                 data-y="bottom"
                                                 data-speed="500"
                                                 data-easing="easeOutQuad"
-                                                data-start="0"> </div>             
+                                                data-start="0"> </div>
                           <div style="font-size: 47px;" class="tp-caption sft fadeout text-center large_white"
                                                 data-x="center"
                                                 data-y="220"
@@ -95,7 +95,7 @@
                                                 data-start="0"
                                                 >
                             {{ .Params.slide3_title }} </div>
-                          
+
                           <div class="tp-caption ZoomIn fadeout text-center tp-resizeme large_white"
                                                 data-x="center"
                                                 data-y="250"
@@ -117,13 +117,13 @@
                                                 data-easing="easeOutQuad"
                                                 data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
                         </li>
-                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide4_link }}"><img src="images/slider4.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
+                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide4_link }}"><img src="/images/slider4.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
                           <div class="tp-caption dark-translucent-bg"
                                                 data-x="center"
                                                 data-y="bottom"
                                                 data-speed="500"
                                                 data-easing="easeOutQuad"
-                                                data-start="0"> </div>             
+                                                data-start="0"> </div>
                           <div style="font-size: 47px;" class="tp-caption sft fadeout text-center large_white"
                                                 data-x="center"
                                                 data-y="220"
@@ -132,7 +132,7 @@
                                                 data-start="0"
                                                 >
                             {{ .Params.slide4_title }} </div>
-                          
+
                           <div class="tp-caption ZoomIn fadeout text-center tp-resizeme large_white"
                                                 data-x="center"
                                                 data-y="250"
@@ -154,13 +154,13 @@
                                                 data-easing="easeOutQuad"
                                                 data-endspeed="200"> <a href="#page-start" class="btn btn-lg moving smooth-scroll"><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i><i class="icon-down-open-big"></i></a> </div>
                         </li>
-                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide5_link }}"><img src="images/slider5.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
+                        <li data-transition="random-static" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title=""> <a href="{{ .Params.slide5_link }}"><img src="/images/slider5.jpg" alt="slidebg1" data-bgposition="center top"  data-bgrepeat="no-repeat" data-bgfit="cover"></a>
                           <div class="tp-caption dark-translucent-bg"
                                                 data-x="center"
                                                 data-y="bottom"
                                                 data-speed="500"
                                                 data-easing="easeOutQuad"
-                                                data-start="0"> </div>             
+                                                data-start="0"> </div>
                           <div style="font-size: 47px;" class="tp-caption sft fadeout text-center large_white"
                                                 data-x="center"
                                                 data-y="220"
@@ -169,7 +169,7 @@
                                                 data-start="0"
                                                 >
                             {{ .Params.slide5_title }} </div>
-                          
+
                           <div class="tp-caption ZoomIn fadeout text-center tp-resizeme large_white"
                                                 data-x="center"
                                                 data-y="250"
@@ -194,7 +194,7 @@
                     {{ end }}
                 {{ end }}
             {{ end }}
-            
+
           </ul>
           <div class="tp-bannertimer"></div>
         </div>
