@@ -4,9 +4,7 @@ title = "footer_box"
 
 header = "Find Us"
 
-summary = "Feel free to visit our head offices in Dubai where we can demonstrate our products and introduce our team. We are situated near Business Bay Bridge Dubai, only 5 minutes from Festival City and 15 minutes from Dubai International Airport."
-
-summary = "The European research and development center is based in Belgium, near Flanders capital city Ghent. Our software developers are global citizens and work from Europe, the Middle East and North Africa. We have presence on all continents."
+summary = "Feel free to visit our head offices in Dubai where we can demonstrate our products and introduce our team. We are situated near Business Bay Bridge Dubai, only 5 minutes from Festival City and 15 minutes from Dubai International Airport.The European research and development center is based in Belgium, near Flanders capital city Ghent. Our software developers are global citizens and work from Europe, the Middle East and North Africa. We have presence on all continents."
 
 social1_title = "facebook"
 social1_link = "https://www.linkedin.com/company/green-it-globe"
