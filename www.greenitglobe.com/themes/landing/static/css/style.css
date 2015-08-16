@@ -4558,7 +4558,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
 @media (min-width: 1200px) {
   /* first level menu item */
   .main-navigation .navbar-nav > li {
-    margin: 0 0 0 10px;
+    margin: 0 0 0 0;
   }
   .main-navigation .navbar-nav > li:first-child {
     margin: 0;
@@ -4571,7 +4571,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
 /* Small devices (tablets, phones less than 767px) */
 @media (max-width: 767px) {
   /* Mobile menu
-	------------------------------ */
+  ------------------------------ */
   /* active item */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
