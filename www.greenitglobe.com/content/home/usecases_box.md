@@ -4,21 +4,21 @@ title = "usecases_box"
 
 header = "How it Works"
 
-summary = "We are committed to deliver the most optimal solution for any kind of use case which requires a guaranteed approach to scalability and technology integration."
+summary = "."
 
-block1_title = "Surveillance Storage Archives"
-block1_text = "Our software defined storage solution and integrated NAS provide you with 10x more efficient use of storage hardware compared with any best of breed hardware vendor."
+block1_title = "Perfomance of the Network"
+block1_text = "Surging performance and openess of the networks have abstracted the need of programming directly onto the underlying hardware components."
 block1_link = "usecases/surveillance-storage"
 
-block2_title = "Hyperscale Infrastructure as a Service"
-block2_text = "The total cost of ownership for your IT is driven down with at least 80% from making 90% of existing IT layers obsolete, allowing you to scale your infrastructure."
+block2_title = "Eliminating Obsolete Layers"
+block2_text = "This allows us to eliminate 90% of complex layers in order to make IT extremely reliable and scalable. Less layers also increase the performance."
 block2_link = "usecases/converged-infrastructure"
 
-block3_title = "Secure Company Workspaces"
-block3_text = "Solutions to securely deliver applications to any device at any time, while the data remains centralized and controlled in order to protect the integrity of your information."
+block3_title = "Delivering Bare Metal Capacity"
+block3_text = "Our Gener8 systems can be directly installed as hyperconverged generator or petabyte archive of raw storage or compute capacity into the network."
 block3_link = "usecases/big-data-analytics"
 
-block4_title = "Public Telco Cloud"
-block4_text = "Green IT Globe delivers the complete hard- and software cloud stack, while integrating your billing and application market places. Multi-datacenter hierarchy management included."
+block4_title = "Powering with Renewable Energy"
+block4_text = "Once the generators are installed, simply power them with off-the-grid electricity, and start accessing your IT capacity with minimal power consumption."
 block4_link = "usecases/public-telco-cloud"
 +++
