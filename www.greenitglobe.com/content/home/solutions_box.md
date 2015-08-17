@@ -4,7 +4,7 @@ title = "solutions_box"
 
 header = "Generat8"
 
-summary = "Gener8 is your Generator for sustainable IT. Building blocks for large digital archives and high-performance compute capacity generated as Energy."
+summary = "Gener8 is your Generator for sustainable IT. Ultra-reliable building blocks for large digital archives and high-performance compute capacity generated as Energy."
 
 block1_title_strong = "Gener8-PB"
 block1_title = "IT as Energy"
