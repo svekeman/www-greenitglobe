@@ -6,7 +6,7 @@
                     <div class="col-md-3">
                       <h2 class="title">Site map</h2>
                       <div class="separator-2"></div>
-                      <h6>Solutions</h6>
+                      <h6>Gener8</h6>
                         <ul class="list">
                           {{ range $element :=  $.Site.Pages }}
                             {{ if eq .Section "solutions" }}
@@ -20,7 +20,7 @@
                             {{ end }}
                           {{ end }}
                         </ul>
-                        <h6>Use cases</h6>
+                        <h6>How it Works</h6>
                         <ul class="list">
                           {{ range $element :=  $.Site.Pages }}
                             {{ if eq .Section "usecases" }}
@@ -52,7 +52,7 @@
                             {{ end }}
                           {{ end }}
                         </ul>
-                      <h6>Technology</h6>
+                      <h6>Our Magic</h6>
                       <ul class="list">
                           {{ range $element :=  $.Site.Pages }}
                             {{ if eq .Section "technology" }}
