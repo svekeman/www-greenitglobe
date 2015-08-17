@@ -6,7 +6,8 @@ title = "IT As Energy"
 ## IT = Energy
 Energy is driving our global economy and the welfare of our society. The importance of Energy is driving the creation and adoption of new Energy sources, such as solar and hydro power, renewable and Green Energy, so more and more people can take advantage of it.
 
-But IT is also Energy. The reliance on IT as natural resource for companies and society is as important as electricity. Electricity was the primary energy source for the industrial revolution to happen, disrupting the agricultural society. But now we have entered the informational revolution in which IT is the primary resource for computer automation and ubiquitous digitization.
+###But IT is also Energy. 
+The reliance on IT as natural resource for companies and society is as important as electricity. Electricity was the primary energy source for the industrial revolution to happen, disrupting the agricultural society. But now we have entered the informational revolution in which IT is the primary resource for computer automation and ubiquitous digitization.
 
 ## IT Evolution
 IT has evolved into the integration and stacking of thousands of independant IT components,  dedicated servers, storage systems and networking hardware. This led to very complex and unreliable infrastructure stack which is very costly to maintain.
