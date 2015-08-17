@@ -19,6 +19,6 @@ block3_text = "Our Gener8 systems are directly installed as hyperconverged or hy
 block3_link = "usecases/big-data-analytics"
 
 block4_title = "Power with Renewable Energy"
-block4_text = "Connect the generators with renewable energy power and boot them up. Get immediate access to your IT capacity with an absolute minimal need for electricity or other resources."
+block4_text = "Connect the generators with renewable energy sources and boot them up. Get immediate access to your IT capacity with an absolute minimal need for electricity or other resources."
 block4_link = "usecases/public-telco-cloud"
 +++
