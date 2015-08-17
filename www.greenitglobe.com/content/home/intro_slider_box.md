@@ -19,7 +19,7 @@ slide3_image = "/images/slider3.jpg"
 
 
 slide4_title = "IT as Energy Is Always There"
-slide4_text = "Generating IT where needed, without you touching it. As true commodity."
+slide4_text = "Generating IT where needed, without you touching it. A true commodity."
 slide4_link = "/it-as-energy/"
 slide4_image = "/images/slider4.jpg"
 
