@@ -15,7 +15,7 @@ block2_text = "This has allowed Green IT Globe to eliminate 90% of all complex l
 block2_link = "usecases/converged-infrastructure"
 
 block3_title = "Get Bare Metal Capacity"
-block3_text = "Our Gener8 systems are directly installed as hyperconverged or hyperdense generators with petabytes of raw archiving storage and compute capacity into your secure networks."
+block3_text = "Our Gener8 systems are directly installed as hyperconverged or hyperdense generators with petabytes of raw archiving storage and compute capacity, directly injected into your secure networks."
 block3_link = "usecases/big-data-analytics"
 
 block4_title = "Power with Renewable Energy"
