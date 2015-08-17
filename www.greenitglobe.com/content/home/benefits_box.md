@@ -4,7 +4,7 @@ title = "benefits_box"
 
 header = "BENEFITS"
 
-summary = "IT as Energy takes a fundamental different approach in providing reliable, scalable and secure IT workloads that need a lot of performance. Our Gener8 systems deliver:" 
+summary = "IT as Energy takes a fundamental different approach in providing reliable, scalable and secure IT that requires a lot of capacity and performance. Gener8 provides you with these benefits:" 
 
 benefit1_title = "Lowest TCO"
 benefit1_text = "The all-in and long-term cost is merely 80% less than any other solution from eliminating integrated technology layers and freeing up your resources to do IT innovation."
