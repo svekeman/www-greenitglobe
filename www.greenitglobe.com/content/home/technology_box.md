@@ -2,7 +2,7 @@
 #Don't remove title!
 title = "technology_box"
 
-header = "TECHNOLOGY"
+header = "Our Magic"
 
 summary = "Green IT Globe is a technology company that delivers-software defined solutions using open-source software to deploy high-performance, scalable and ultra-reliable IT to any customer in the world."
 

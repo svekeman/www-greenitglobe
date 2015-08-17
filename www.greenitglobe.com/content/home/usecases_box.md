@@ -2,7 +2,7 @@
 #Don't remove title!
 title = "usecases_box"
 
-header = "Use Cases"
+header = "How it Works"
 
 summary = "We are committed to deliver the most optimal solution for any kind of use case which requires a guaranteed approach to scalability and technology integration."
 
