@@ -1,0 +1,18 @@
+{{ range $element :=  .Data.Pages }}
+  {{ if eq .Section "home" }}
+      {{ if eq .Title "howitworks_box" }}
+        <section id="technology" class="pv-30 default-bg padding-bottom-clear clearfix">
+        	    <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h2 class="text-center">{{ .Params.header }}</h2>
+                            <div class="separator"></div>
+                            <p class="large text-center">{{ .Params.summary }}</p>
+                            <br>
+                        </div>
+                    </div>
+        	    </div>
+          </section>
+    {{ end }}
+  {{ end }}
+{{ end }}

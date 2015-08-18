@@ -4,6 +4,13 @@
 
 Can view auto updated version from master branch on staging server [http://new-gig.aydo.com:8080](http://new-gig.aydo.com:8080) "Changes take up to 5 minutes to be live on staging server"
 
+# to run local
+
+```
+#go to your directory where this code is checked out
+cd /opt/code/git/www/new-gig/
+runlocal.sh
+```
 
 ## Add content documentation
 

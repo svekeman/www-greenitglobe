@@ -1,6 +1,6 @@
 +++
 #Don't remove title!
-title = "solutions_box"
+title = "whatis_box"
 
 header = "SOLUTIONS"
 

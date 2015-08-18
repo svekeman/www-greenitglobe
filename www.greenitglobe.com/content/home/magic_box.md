@@ -1,8 +1,8 @@
 +++
 #Don't remove title!
-title = "usecases_box"
+title = "magic_box"
 
-header = "How it Works"
+header = "Magic"
 
 summary = "."
 

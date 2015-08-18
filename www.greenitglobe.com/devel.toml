@@ -1,0 +1,12 @@
+baseurl = "/"
+LanguageCode = "en"
+title = "GreenITGlobe"
+theme = "landing"
+contentdir = "content"
+staticdir = "static"
+publishdir = "/tmp/www/greenitglobe"
+relativeURLs = true
+uglyUrls = true
+
+[permalinks]
+    post = "/:filename"

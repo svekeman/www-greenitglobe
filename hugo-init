@@ -2,3 +2,5 @@
 hugo --config=www.greenitglobe.com/config.toml -s www.greenitglobe.com
 hugo --config=www.greenitglobe.com/config-ru.toml -s www.greenitglobe.com
 hugo --config=www.greenitglobe.com/config-ar.toml -s www.greenitglobe.com
+
+#hugo --config=HugoConfigDevelopment.toml --uglyUrls=false
