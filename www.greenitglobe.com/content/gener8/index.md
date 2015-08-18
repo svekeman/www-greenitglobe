@@ -2,7 +2,12 @@
 title = "Gener8"
 +++
 
-Gener8 are building blocks to create IT infrastructure and raw capacity. The main 
+### IT Building Blocks
+Gener8 are building blocks to create IT infrastructure and raw capacity. Gener8-PB is your storage building block allowing you to build large digital archives. Gener8-HC is hyperconverged storage that includes high-performance compute capacity for production and application workloads.
+
+### Gener8-PB
+* Petabyte archive building block
+* Power-friendly, 
 
 ### Key aspects:
 
