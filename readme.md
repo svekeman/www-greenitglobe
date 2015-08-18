@@ -12,8 +12,6 @@ cd /opt/code/git/www/new-gig/
 runlocal.sh
 ```
 
-## Add content documentation
-
 # All content for the site
 
 English content:
@@ -25,5 +23,3 @@ Arabic content:
 Russian content:
 [www.greenitglobe.com/content-russian](www.greenitglobe.com/content-russian)
 
-### Home page
-![](https://git.aydo.com/static-websites/new-gig/raw/master/www.greenitglobe.com/static/GIG-doc.jpg)
