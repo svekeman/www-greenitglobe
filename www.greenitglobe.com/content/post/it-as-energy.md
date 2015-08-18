@@ -23,5 +23,25 @@ Green IT Globe introduces the IT as Energy concept to deliver only the benefits 
 
 Green IT Globe delivers its concept through “IT As Energy Generators” based on the requirements of many customers asking for following 5 specific benefits:
 
-| Customer Requirements | IT as Energy Benefits
-| Lower my Total Cost of Ownership (TCO). Make my IT Green and Renewable | Power consumption is 10x more effective. Compute and storage is 10x less expensive. Need for hardware and power is dramatically reduced.
+
+#Lower my Total Cost of Ownership (TCO) 
+##Make my IT Green and Renewable
+##Power consumption is 10x more effective.
+##Compute and storage is 10x less expensive.
+##Need for hardware and power is dramatically reduced.
+
+#Make my IT Secure and Private
+##Opensource technology prevents security issues.
+##Can be operated by local accredited partners and trusted suppliers.
+
+#Make my IT Extremely Simple
+##Easy to use interfaces and integration options
+##e.g. very few API’s to enable smooth integration.
+##e.g. only a few clicks to deploy a new solution.
+
+#Make my IT Ultra Reliable
+##New storage and different technology frameworks deliver up to 1000 times more reliability and prevent downtime completely. 
+
+#Make my IT Available Everywhere
+##Cost effective operations around the world sell and deploy the generators which keeps the IT capacity within the proximity of the customer operations and premise.
+##This creates jobs and long term employment locally. No jobs are outsourced, fully protecting the regionall economy.
