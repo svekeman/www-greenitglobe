@@ -17,12 +17,3 @@ Your IT infrastructure is business-critical and demands ultra-reliable technolog
 
 #### Zero Desktop
 Elimination of desktops due to the evolution of workspaces. Our technology centralizes your apps and secures the data from creating temporary user containers which are destroyed once users log-off." technology2_link = "technology/0-desktop
-
-
-
-
-
-
-### Key aspects:
-
-* explain our concept of eliminating layers of complexity
