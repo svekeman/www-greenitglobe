@@ -4,7 +4,7 @@ title = "howitworks_box"
 
 header = "How It Works"
 
-summary = "Gener8 are building blocks to instantly create IT infrastructure and raw storage capacity. Combining and stacking the building blocks provide you with scale-out capability for both storage and compute capacity. Gener8 can also be used as stand-alone IT capacity in a hyperdense form factor."
+summary = "Gener8 are building blocks to instantly create IT infrastructure and raw storage capacity. Combining and stacking the building blocks provide you with scale-out capability for both storage and compute capacity. Gener8 can also be used as stand-alone IT system in a hyperdense, silent and power-saving form factor."
 
 +++
 

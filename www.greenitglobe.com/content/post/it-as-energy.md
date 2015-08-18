@@ -6,7 +6,7 @@ title = "IT As Energy"
 ## IT = Energy
 Energy is driving our global economy and the welfare of our society. The importance of Energy is driving the creation and adoption of new Energy sources, such as solar and hydro power, renewable and Green Energy, so more and more people can take advantage of it.
 
-###But IT is also Energy. 
+But IT is also Energy. 
 The reliance on IT as natural resource for companies and society is as important as electricity. Electricity was the primary energy source for the industrial revolution to happen, disrupting the agricultural society. But now we have entered the informational revolution in which IT is the primary resource for computer automation and ubiquitous digitization.
 
 ## IT Evolution
@@ -21,7 +21,9 @@ Cloud services deliver us tools and interfaces which make it easy to organize an
 ## What Comes After Cloud? IT as Energy!
 Green IT Globe introduces the IT as Energy concept to deliver only the benefits from cloud services, but not its limitations and complexity.
 
-Green IT Globe delivers its concept through “IT As Energy Generators” based on the requirements of many customers asking for following 5 specific benefits:
-
-| Customer Requirements | IT as Energy Benefits
-| Lower my Total Cost of Ownership (TCO). Make my IT Green and Renewable | Power consumption is 10x more effective. Compute and storage is 10x less expensive. Need for hardware and power is dramatically reduced.
+Green IT Globe delivers its concept through “IT As Energy Generators” based on the requirements of many customers asking for following benefits:
+Lower my Total Cost of Ownership  
+Make my IT Secure and Private
+Make my IT Extremely Simple
+Make my IT Ultra Reliable
+Make my IT Available Everywhere
