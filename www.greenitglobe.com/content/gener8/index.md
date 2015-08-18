@@ -25,7 +25,7 @@ This building block generates 1.5 petabyte of storage in only 1 meter. This comp
 ### Gener8-HC
 The hyperconverged building block has both storage and compute capacity for heavy production workloads. It can handle most applications available in the world. One generator is only 1 meter high and can run 500 virtual machines or 2500 workspaces.
 
-### Technical
+#### Technical
 * 1980 net usable GB memory
 * 288 logical CPU cores
 * 180 TB Ultra High Performance Embedded SAN Capacity
