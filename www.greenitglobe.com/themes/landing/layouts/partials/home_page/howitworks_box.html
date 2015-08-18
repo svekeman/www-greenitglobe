@@ -1,7 +1,7 @@
 {{ range $element :=  .Data.Pages }}
   {{ if eq .Section "home" }}
       {{ if eq .Title "howitworks_box" }}
-        <section id="how-it-works" class="pv-30 default-bg padding-bottom-clear clearfix">
+        <section id="how-it-works" class="pv-30 padding-bottom-clear clearfix">
         	    <div class="container">
                     <div class="row">
                         <div class="col-md-8 col-md-offset-2">
@@ -13,6 +13,7 @@
                     </div>
         	    </div>
           </section>
+          <hr />
     {{ end }}
   {{ end }}
 {{ end }}
