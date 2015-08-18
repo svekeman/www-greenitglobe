@@ -13,7 +13,7 @@ block1_link = "solutions/hyperconverged-storage"
 
 block2_title_strong = "Gener8-HC"
 block2_title = "IT as Energy"
-block2_text = "Your HyperConverged IT building block to run high-performance storage and virtualized compute workloads. Turnkey solution for raw IT infrastructure."
+block2_text = "Your HyperConverged IT building block to run high-performance storage and virtualized compute workloads. Turnkey solution for all your IT infrastructure."
 block2_link = "solutions/hyperscale-cloud"
 
 block3_title_strong = "Gener8-HD"
