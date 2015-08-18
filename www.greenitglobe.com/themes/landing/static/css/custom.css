@@ -1,3 +1,4 @@
 .image-box.team-member.shadow.mb-20 img { width: 278px;height: 278px;  -webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);filter: grayscale(100%); }
 .clients .client-image { width: 262px;height: 60px;   padding-top: 15px;margin: 0}
 @-moz-document url-prefix() { .langPic { margin: -20px 0 0;} }
+.bgNone { background-color: transparent !important;}
