@@ -6,11 +6,36 @@ Can view auto updated version from master branch on staging server [http://new-g
 
 # to run local
 
+## install hugo
+- mac: 
+    - install brew: 
+        - in a terminal do ```ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+        - http://brew.sh/
+    - install hugo
+        - in a terminal do ```brew install hugo```
+    - install git
+        - in a terminal do ```brew install git```
+- others: https://github.com/spf13/hugo/releases
+
+## clone repo 
+
+do this in terminal
+```
+mkdir -p ~/www/gig
+cd  ~/www/gig
+git clone https://git.aydo.com/static-websites/new-gig.git
+```
+
+## use
+do this in terminal
 ```
 #go to your directory where this code is checked out
-cd /opt/code/git/www/new-gig/
-runlocal.sh
+cd  ~/www/gig
+sh runlocal.sh
 ```
+
+## further use info
+- http://gohugo.io/overview/usage/
 
 # All content for the site
 
