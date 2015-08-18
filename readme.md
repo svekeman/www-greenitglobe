@@ -21,8 +21,8 @@ Can view auto updated version from master branch on staging server [http://new-g
 
 do this in terminal
 ```
-mkdir -p ~/www/gig
-cd  ~/www/gig
+mkdir -p ~/code/git/www
+cd  ~/code/git/www
 git clone https://git.aydo.com/static-websites/new-gig.git
 ```
 
@@ -30,7 +30,7 @@ git clone https://git.aydo.com/static-websites/new-gig.git
 do this in terminal
 ```
 #go to your directory where this code is checked out
-cd  ~/www/gig
+cd  ~/code/git/www
 sh runlocal.sh
 ```
 
