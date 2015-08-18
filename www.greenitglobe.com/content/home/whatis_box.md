@@ -2,7 +2,7 @@
 #Don't remove title!
 title = "whatis_box"
 
-header = "Generat8"
+header = "Gener8"
 
 summary = "Gener8 is your Generator for sustainable IT. Ultra-reliable building blocks for large digital archives and high-performance compute capacity generated as Energy."
 
