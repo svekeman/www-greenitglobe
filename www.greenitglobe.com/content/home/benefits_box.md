@@ -14,17 +14,17 @@ benefit2_title = "Ultra-Scalable IT"
 benefit2_text = "No need to add more expensive hardware to scale capacity or performance. We support you with efficient use of hardware and flexible scale-out of your petabyte+ archives."
 benefit2_link = "benefits/scalability"
 
-benefit5_title = "Self-Healing IT"
-benefit2_text = "Gener8 is a software defined solution with embedded self healing capability. Our algoritms detect and prevent possible failures and regenate your IT workloads on the fly."
-benefit2_link = "benefits/scalability"
+benefit3_title = "Self-Healing IT"
+benefit3_text = "Gener8 is a software defined solution with embedded self healing capability. Our algoritms detect and prevent possible failures and regenate your IT workloads on the fly."
+benefit3_link = "benefits/scalability"
 
-benefit3_title = "Complete Control"
-benefit3_text = "You own and control 100% of the technology stack which is developed in Europe,  with zero dependency on third party technologies. No vulnerability to breaches and backdoors."
-benefit3_link = "benefits/security"
+benefit4_title = "Complete Control"
+benefit4_text = "You own and control 100% of the technology stack which is developed in Europe,  with zero dependency on third party technologies. No vulnerability to breaches and backdoors."
+benefit4_link = "benefits/security"
 
-benefit4_title = "Return on Investment"
-benefit4_text = "Low energy consumption and intelligent power managament enables us to prevent outages. Besides the benefit of uptime, your energy-savings are paying for your return on investment."
-benefit4_link = "benefits/availability"
+benefit5_title = "Return on Investment"
+benefit5_text = "Low energy consumption and intelligent power managament enables us to prevent outages. Besides the benefit of uptime, your energy-savings are paying for your return on investment."
+benefit5_link = "benefits/availability"
 
 link = "#"
 +++
