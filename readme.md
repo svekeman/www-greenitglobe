@@ -35,6 +35,8 @@ sh runlocal.sh
 ```
 
 you now have a hugo which will expose the website on port 80 and for each change automatically reload
+to see
+- http://localhost/
 
 ## further use info
 - http://gohugo.io/overview/usage/
