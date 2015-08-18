@@ -6,7 +6,7 @@ title = "IT As Energy"
 ## IT = Energy
 Energy is driving our global economy and the welfare of our society. The importance of Energy is driving the creation and adoption of new Energy sources, such as solar and hydro power, renewable and Green Energy, so more and more people can take advantage of it.
 
-###But IT is also Energy. 
+But IT is also Energy. 
 The reliance on IT as natural resource for companies and society is as important as electricity. Electricity was the primary energy source for the industrial revolution to happen, disrupting the agricultural society. But now we have entered the informational revolution in which IT is the primary resource for computer automation and ubiquitous digitization.
 
 ## IT Evolution
@@ -23,25 +23,24 @@ Green IT Globe introduces the IT as Energy concept to deliver only the benefits 
 
 Green IT Globe delivers its concept through “IT As Energy Generators” based on the requirements of many customers asking for following 5 specific benefits:
 
+##Lower my Total Cost of Ownership (TCO) 
+Make my IT Green and Renewable
+Power consumption is 10x more effective.
+Compute and storage is 10x less expensive.
+Need for hardware and power is dramatically reduced.
 
-#Lower my Total Cost of Ownership (TCO) 
-##Make my IT Green and Renewable
-##Power consumption is 10x more effective.
-##Compute and storage is 10x less expensive.
-##Need for hardware and power is dramatically reduced.
+##Make my IT Secure and Private
+Opensource technology prevents security issues.
+Can be operated by local accredited partners and trusted suppliers.
 
-#Make my IT Secure and Private
-##Opensource technology prevents security issues.
-##Can be operated by local accredited partners and trusted suppliers.
+##Make my IT Extremely Simple
+Easy to use interfaces and integration options
+e.g. very few API’s to enable smooth integration.
+e.g. only a few clicks to deploy a new solution.
 
-#Make my IT Extremely Simple
-##Easy to use interfaces and integration options
-##e.g. very few API’s to enable smooth integration.
-##e.g. only a few clicks to deploy a new solution.
+##Make my IT Ultra Reliable
+New storage and different technology frameworks deliver up to 1000 times more reliability and prevent downtime completely. 
 
-#Make my IT Ultra Reliable
-##New storage and different technology frameworks deliver up to 1000 times more reliability and prevent downtime completely. 
-
-#Make my IT Available Everywhere
-##Cost effective operations around the world sell and deploy the generators which keeps the IT capacity within the proximity of the customer operations and premise.
-##This creates jobs and long term employment locally. No jobs are outsourced, fully protecting the regionall economy.
+##Make my IT Available Everywhere
+Cost effective operations around the world sell and deploy the generators which keeps the IT capacity within the proximity of the customer operations and premise.
+This creates jobs and long term employment locally. No jobs are outsourced, fully protecting the regionall economy.
