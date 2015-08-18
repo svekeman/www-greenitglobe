@@ -4318,7 +4318,7 @@ header.full-width .dropdown-menu .dropdown-menu.to-left {
     left: auto!important;
   }
 }
-/* Mega Menu 
+/* Mega Menu
 ------------------------------ */
 .mega-menu.dropdown {
   position: static;
@@ -4389,7 +4389,7 @@ header .dropdown-menu > li.active > a i.fa-circle-o:before {
   border-color: #f7f7f7;
   text-decoration: none;
 }
-/* Arrow for parent menu item 
+/* Arrow for parent menu item
 ------------------------------ */
 .dropdown > a:before {
   font-family: 'FontAwesome';
@@ -4431,7 +4431,7 @@ header .dropdown-menu > li.active > a i.fa-circle-o:before {
 .header.centered:not(.dark) .dropdown .dropdown.open > a:before {
   color: #09afdf;
 }
-/* Dropdown animations 
+/* Dropdown animations
 ------------------------------ */
 .animated.main-navigation .navbar-nav .open .dropdown-menu,
 #offcanvas.animated .open .dropdown-menu,
@@ -5713,7 +5713,7 @@ ul.tweets li span {
   font-size: 12px;
   color: #777777;
 }
-/* Media 
+/* Media
 ---------------------------------- */
 .media {
   margin-top: 0;
@@ -6936,7 +6936,9 @@ h6.media-heading {
 /* Custom CSS */
 .text-dark, .text-dark h4 { color: #777777;}
 .text-white { color: #FFF;}
-.bg-white {background-color: #FFF;}
+.bg-white {background-color: #FFF; min-height: 410px;}
+.bg-white h4 {  min-height: 43px; }
+.feature-box p { min-height: 158px; }
 .slides .large_white { font-weight: bold;}
 .iconCustom {display: inline-table; vertical-align: middle;}
 .langPic { width: 30px; float: right;}
