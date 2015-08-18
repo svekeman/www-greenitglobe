@@ -22,8 +22,9 @@ Cloud services deliver us tools and interfaces which make it easy to organize an
 Green IT Globe introduces the IT as Energy concept to deliver only the benefits from cloud services, but not its limitations and complexity.
 
 Green IT Globe delivers its concept through “IT As Energy Generators” based on the requirements of many customers asking for following benefits:
-Lower my Total Cost of Ownership  
-Make my IT Secure and Private
-Make my IT Extremely Simple
-Make my IT Ultra Reliable
-Make my IT Available Everywhere
+
+* Lower my Total Cost of Ownership  
+* Make my IT Secure and Private
+* Make my IT Extremely Simple
+* Make my IT Ultra Reliable
+* Make my IT Available Everywhere
