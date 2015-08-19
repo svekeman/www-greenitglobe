@@ -2,3 +2,4 @@
 .clients .client-image { width: 262px;height: 60px;   padding-top: 15px;margin: 0}
 @-moz-document url-prefix() { .langPic { margin: -20px 0 0;} }
 .bgNone { background-color: transparent !important;}
+p img { max-width: 694px;}
