@@ -4,7 +4,7 @@ title = "magic_box"
 
 header = "Magic"
 
-summary = "IT as Energy is about making IT a true commodity. Green IT Globe takes a disruptive approach through elimination, simplification and the latest innovations to build our Gener8 products."
+summary = "IT as Energy is about making IT a true commodity. Green IT Globe takes a disruptive approach through elimination, simplification and using tech innovations to build our Gener8 products."
 
 
 block1_title = "Eliminate Complexity and Obsolete IT Layers"
@@ -20,6 +20,6 @@ block3_text = "Our Gener8 systems are directly installed as hyperconverged or hy
 block3_link = "remove-complexity"
 
 block4_title = "Lowest Energy Consumption"
-block4_text = "Our unique algoritms together with the elimination of layers results in 10x power savings. Get immediate access to your IT capacity with an absolute minimal need for power."
+block4_text = "Running our unique algoritms in combination with eliminating IT layers results in 10x power savings. Get immediate access to your IT capacity with an absolute minimal need for power."
 block4_link = "remove-complexity"
 +++
