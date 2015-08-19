@@ -3,5 +3,5 @@
 title = "Thank you!"
 +++
 
-### Form submitted successfully!
+### We will send you the white paper ASAP!
 
