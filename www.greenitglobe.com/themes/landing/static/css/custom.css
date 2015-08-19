@@ -3,3 +3,4 @@
 @-moz-document url-prefix() { .langPic { margin: -20px 0 0;} }
 .bgNone { background-color: transparent !important;}
 p img { max-width: 694px;}
+.form-control { margin: 10px 0;}
