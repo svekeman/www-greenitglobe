@@ -3,7 +3,7 @@
 title = "White Papers"
 +++
 
-<form id="contact-form" action="//formspree.io/magedf@codescalers.com" method="POST" class="col-md-6">
+<form id="contact-form" action="//formspree.io/info@greenitglobe.com" method="POST" class="col-md-6">
     <input type="hidden" name="_next" value="/thank-you" />
     <input type="hidden" name="_subject" value="Message from Green IT Globe" />
     <input type="text" name="_gotcha" style="display:none" />
