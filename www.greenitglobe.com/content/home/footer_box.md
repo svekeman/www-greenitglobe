@@ -13,7 +13,7 @@ social2_title = "twitter"
 social2_link = "https://www.twitter.com/greenitglobe"
 
 social3_title = "youtube-play"
-social3_link = "https://www.linkedin.com/company/green-it-globe"
+social3_link = "https://www.youtube.com/channel/UCrEK7gTkcd6gSJRDP5iYCqg"
 
 social4_title = "linkedin"
 social4_link = "https://www.linkedin.com/company/green-it-globe"
