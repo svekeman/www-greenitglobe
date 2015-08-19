@@ -6,7 +6,7 @@ title = "White Papers"
 #### Learn all about the revolutionary technology and Green IT Globe’s vision to disrupt the IT industry.
 
 <form id="contact-form" action="//formspree.io/sacha@greenitglobe.com" method="POST" class="col-md-6">
-    <input type="hidden" name="_next" value="/thank-you" />
+    <input type="hidden" name="_next" value="/en/thank-you" />
     <input type="hidden" name="_subject" value="Message from Green IT Globe" />
     <input type="text" name="_gotcha" style="display:none" />
     <input type="text" name="name" placeholder="Your Name" class="form-control">
