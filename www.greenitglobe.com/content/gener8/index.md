@@ -3,9 +3,11 @@ title = "Gener8"
 +++
 
 ### IT Building Blocks
-Gener8 are building blocks to create IT infrastructure and raw capacity. Gener8-PB is your storage building block allowing you to build large digital archives. Gener8-HC is hyperconverged storage that includes high-performance compute capacity for production and application workloads.
+
+Gener8 are building blocks to instantly provide IT infrastructure capacity. Combining and stacking the building blocks provide you with scale-out capability for storage, compute and desktop capacity. Gener8 can also be used as stand-alone IT system in a hyperdense, silent and power-saving form factor.
 
 ### Gener8-PB
+
 This building block generates 1.5 petabyte of storage in only 1 meter. This compares to capacity needed for 350,000 DVD movies, 500,000,000 high definition pictures and thousands of hours surveillance camera storage.
 
 * Petabyte archive building block, no limits to scalability
@@ -15,6 +17,7 @@ This building block generates 1.5 petabyte of storage in only 1 meter. This comp
 * Digital preservation is possible for 30+ years
 
 #### Technical
+
 * 1.5 PB
 * NAS & SAN Interface
 * 56 Gbit/sec ethernet
@@ -23,9 +26,11 @@ This building block generates 1.5 petabyte of storage in only 1 meter. This comp
 * Height of building block is 140cm
 
 ### Gener8-HC
+
 The hyperconverged building block has both storage and compute capacity for heavy production workloads. It can handle most applications available in the world. One generator is only 1 meter high and can run 500 virtual machines or 2500 workspaces.
 
 #### Technical
+
 * 1980 net usable GB memory
 * 288 logical CPU cores
 * 180 TB Ultra High Performance Embedded SAN Capacity
@@ -34,4 +39,5 @@ The hyperconverged building block has both storage and compute capacity for heav
 * Height of building block is 140cm
 
 ### Gener8-HD
+
 Standalone hyperdense IT system. Office form factor. Release in Q4 of 2015.
