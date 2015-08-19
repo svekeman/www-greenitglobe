@@ -8,7 +8,7 @@ summary = "Gener8 is your Generator for sustainable IT. Ultra-reliable building 
 
 block1_title_strong = "Gener8-PB"
 block1_title = "IT as Energy"
-block1_text = "Your Petabyte storage building blocks to scale extreme large digital archives. Our storage generators have the lowest electricity footpring in the market."
+block1_text = "Your Petabyte storage building blocks to scale extreme large digital archives. Our storage generators have the lowest carbon footprint in the world."
 block1_link = "gener8"
 
 block2_title_strong = "Gener8-HC"
