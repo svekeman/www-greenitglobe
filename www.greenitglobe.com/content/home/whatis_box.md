@@ -18,7 +18,7 @@ block2_link = "gener8"
 
 block3_title_strong = "Gener8-HD"
 block3_title = "IT as Energy"
-block3_text = "Your HyperDense IT delivered as stand-alone box with mininal power footprint and the highest possible uptime. Can run anywhere in the world."
+block3_text = "Your HyperDense IT delivered as stand-alone box with minimal power footprint and the highest possible uptime. Can run anywhere in the world."
 block3_link = "gener8"
 
 +++
