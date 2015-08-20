@@ -32,11 +32,9 @@ Call Cairo +20224174744
 ### Russia
 
 <mailto:russia@greenitglobe.com>  
-Call Moskou +79104048886  
+Call Moskow +79104048886  
 
 
 ### South Africa
 
-<mailto:safrica@greenitglobe.com>  
-
-
+<mailto:safrica@greenitglobe.com>
