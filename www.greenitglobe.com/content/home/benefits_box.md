@@ -15,7 +15,7 @@ benefit2_text = "No need to add more expensive hardware to scale capacity or per
 benefit2_link = "benefits/scalability"
 
 benefit3_title = "Self-Healing IT"
-benefit3_text = "Gener8 is a software defined solution with embedded self healing capability. Our algoritms detect and prevent possible failures and regenate your IT workloads on the fly."
+benefit3_text = "Gener8 is a software defined solution with embedded self healing capability. Our algoritms detect and prevent possible failures and regenerate your IT workloads on the fly."
 benefit3_link = "benefits/scalability"
 
 benefit4_title = "Complete Control"
