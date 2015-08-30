@@ -34,8 +34,8 @@ Elimination of independent and expensive storage technology as Generat8 has inte
 - Flawless integration into your secure networks
 - No limits to scalability, 100s of petabytes
 
-<img src="better_storage.png" style="max-width: 950px !important;">
 
+![](better_storage.png)
 
 #### Zero Downtime
 
