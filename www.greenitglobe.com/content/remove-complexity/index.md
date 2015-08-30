@@ -34,7 +34,8 @@ Elimination of independent and expensive storage technology as Generat8 has inte
 - Flawless integration into your secure networks
 - No limits to scalability, 100s of petabytes
 
-![](better_storage.png)
+<img src="better_storage.png" style="max-width: 950px !important;">
+
 
 #### Zero Downtime
 
@@ -53,3 +54,4 @@ Elimination of desktops due to the evolution of workspaces. Our technology centr
 - Lowers cost of application licenses
 - Centralizes and secures all data
 - Secure access from any device, anywhere.
+
