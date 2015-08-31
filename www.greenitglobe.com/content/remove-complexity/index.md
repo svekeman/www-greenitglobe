@@ -28,7 +28,7 @@ There is a lot of overhead in how network packets travel over clouds, we have dr
 
 #### Zero Storage
 
-Elimination of independent and expensive storage technology as Generat8 has integrated filesystem interfaces and can be deal wit: from high performance storage to long retention archives.
+Elimination of independent and expensive storage technology as Generat8 has integrated filesystem interfaces and can be deal with from high performance storage and long retention archives.
 
 - No need to buy expensive storage area networks
 - Flawless integration into your secure networks
