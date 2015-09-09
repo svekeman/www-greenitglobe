@@ -2,6 +2,7 @@
 title = "Gener8"
 +++
 
+<img class="gener8Logo" src="/images/gener8-logo.png">
 ### IT Building Blocks
 
 Gener8 are building blocks to instantly provide IT infrastructure capacity. Combining and stacking the building blocks provide you with scale-out capability for storage, compute and desktop capacity. Gener8 can also be used as stand-alone IT system in a hyperdense, silent and power-saving form factor.
@@ -41,3 +42,10 @@ The hyperconverged building block has both storage and compute capacity for heav
 ### Gener8-HD
 
 Standalone hyperdense IT system. Office form factor. Release in Q4 of 2015.
+
+<style type="text/css">
+.gener8Logo {margin: -15px 0 0 0;}
+	.title { display: none;}
+	.separator-2 { display: none;}
+	.separator-2 + p { display: none;}
+</style>
