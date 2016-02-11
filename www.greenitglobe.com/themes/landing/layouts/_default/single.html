@@ -1,11 +1,25 @@
 {{ partial "head.html" . }}
 <style type="text/css">
-	.footer {border-top: 1px solid #eaeaea;}
-	.container.page-container ul {padding: 10px 0 0 20px;}
-
-
-
-	.zero-image{max-width: 800px !important;}
+	.footer {
+		border-top: 1px solid #eaeaea;
+	}
+	.container.page-container ul {
+		padding: 10px 0 0 20px;
+	}
+	.zero-image{
+		max-width: 800px !important;
+	}
+	{{if eq .Title "Team"}}
+	img{
+		float: left;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		margin-top: 10px;
+	}
+	p{
+		text-align: justify;
+	}
+	{{end}}
 </style>
 	<body class="no-trans front-page transparent-header ">
 	    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>

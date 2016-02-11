@@ -26,6 +26,9 @@ mark,
   background-color: #4AA24D;
   color: #fff;
 }
+.transparent-header .header:not(.dark) .navbar-nav > li:not(.active) > a{
+  font-size: 14px;
+}
 /* 2- Layout
 -------------------------------------------------
 -------------------------------------------------*/
