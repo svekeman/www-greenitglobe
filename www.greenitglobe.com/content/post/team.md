@@ -5,14 +5,11 @@ title = "Team"
 
 ### Green IT Globe Team
 
-GreenITGlobe has been founded by Kristof De Spiegeleer, a serial entrepreneur who stands 
-at the forefront of cloud development and has an impressive track record in launching
-successful technology companies that revolutionize the cloud world. The company originates 
-as a spinEoff of Incubaid (www.incubaid.com), one of Europe’s most renowned technology
-incubators in datacenter automation and cloud services. The international management
-team of GreenITGlobe has been building and growing technology companies for more than 
-15 years and is complemented by a team of datacenter veterans, cloud computing experts 
-and experienced software engineers. 
+Green IT Globe was founded by Kristof De Spiegeleer, a serial entrepreneur who stands 
+at the forefront of European cloud development and has an impressive track record in launching
+successful technology companies that revolutionize the cloud. The international management
+team of Green IT Globe has been building and growing technology companies for more than 
+15 years. 
 
 ----------------
 
