@@ -5,11 +5,11 @@ title = "Team"
 
 ### Green IT Globe Team
 
-Green IT Globe was founded by Kristof De Spiegeleer, a serial entrepreneur who stands 
+Green IT Globe was founded by Kristof De Spiegeleer, a serial entrepreneur who stands
 at the forefront of European cloud development and has an impressive track record in launching
 successful technology companies that revolutionize the cloud. The international management
-team of Green IT Globe has been building and growing technology companies for more than 
-15 years. 
+team of Green IT Globe has been building and growing technology companies for more than
+15 years.
 
 ----------------
 
@@ -79,7 +79,7 @@ Adnan holds a BA in International Economics from the San Diego State University 
 ![](/images/team/sacha.jpg)
 
 Sacha is responsible for strategy, go-to-market and product marketing at Green IT Globe, supporting the offices in Dubai, Caïro (Egypt) and Ghent (Belgium) to successfully deploy cloud and storage solutions with global resellers and local customers.
-Sacha brings more than seventeen years of international working experience in large multinational corporations, technology startups and  highEgrowth  companies.  He  has  an  international  background  in business  development  and  channel  sales,  and  has  worked  with  world-class  datacenter  and  telecom  players  in  Europe,  Asia  and  the  Middle 
+Sacha brings more than seventeen years of international working experience in large multinational corporations, technology startups and  highEgrowth  companies.  He  has  an  international  background  in business  development  and  channel  sales,  and  has  worked  with  world-class  datacenter  and  telecom  players  in  Europe,  Asia  and  the  Middle
 East. He has worked as a management consultant and investor in various technology, media and mobile startups, His specialties are strategy, product & technology marketing, business & channel development, corporate development and innovation management.
 Sacha has a BSc in Business management and an honors degree in Strategic Marketing.
 
@@ -89,7 +89,7 @@ Sacha has a BSc in Business management and an honors degree in Strategic Marketi
 
 #### Andreas Hartl – Head of Channel Sales
 
-![](/images/team/yves.jpg)
+![](/images/team/andreas.jpg)
 
 In his role at Green IT Globe, Andreas is responsible for developing, implementing and executing Green IT Globe’s channel sales strategy. Andreas was perviously VP DACH at Riverbed Technology, where he built out the region to the strongest EMEA revenue contributor. Prior to that he headed Riverbed’s EMEA channel organisation. In this capacity Andreas changed the companies go to market strategy to a 100% channel driven model. Before joining Riverbed Andreas spent 6 years at NetApp, where had various channel leadership roles. Whenever work and family duties allow he heads out to the mountains to savour his passion for skiing and mountain biking.
 <br>
