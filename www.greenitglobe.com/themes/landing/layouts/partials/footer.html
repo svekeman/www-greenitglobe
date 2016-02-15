@@ -1,82 +1,83 @@
-        <footer id="footer" class="clearfix ">
-            <div class="footer">
-              <div class="container">
-                <div class="footer-inner">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <h2 class="title">Site map</h2>
-                      <div class="separator-2"></div>
-                      <ul class="list">
-                          <li><a href="/"><i class="icon-right-open"></i>Home</a></li>
-                          <li><a href="/it-as-energy"><i class="icon-right-open"></i>IT as Energy</a></li>
-                      </ul>
-                      <h6>Gener8</h6>
-                        <ul class="list">
-                          <li><a href="/gener8"><i class="icon-right-open"></i>IT Building Blocks</a></li>
-                        </ul>
-                        <h6>Our Magic</h6>
-                          <ul class="list">
-                            <li><a href="/remove-complexity"><i class="icon-right-open"></i>Remove Complexity</a></li>
-                          </ul>
-                    </div>
-                    <div class="col-md-3">
-                      <h6 style="padding-top: 40px;">How it Works</h6>
-                        <ul class="list">
-                          <li><a href="/#how-it-works"><i class="icon-right-open"></i>How it Works</a></li>
-                        </ul>
-                        <ul class="list">
-                          <h6>Company</h6>
-                          <li><a href="/contactus"><i class="icon-right-open"></i>Contact us</a></li>
-                          <!-- <li><a href="/team"><i class="icon-right-open"></i>Team</a></li> -->
-                          <li><a href="/white-papers/"><i class="icon-right-open"></i>White Papers</a></li>
-
-                        </ul>
-                    </div>
-
-                    {{ range $element :=  $.Site.Pages }}
-                      {{ if eq .Section "home" }}
-                          {{ if eq .Title "footer_box" }}
-                            <div class="col-md-6">
-                              <div class="footer-content">
-                                <h2 class="title">{{ .Params.header }}</h2>
-                                <div class="separator-2"></div>
-                                <p>{{ .Params.summary }}</p>
-                                <ul class="social-links circle animated-effect-1">
-                                  <li class="facebook"><a target="_blank" href="{{ .Params.social1_link }}"><i class="fa fa-{{ .Params.social1_title }}"></i></a></li>
-                                  <li class="twitter"><a target="_blank" href="{{ .Params.social2_link }}"><i class="fa fa-{{ .Params.social2_title }}"></i></a></li>
-                                  <li class="googleplus"><a target="_blank" href="{{ .Params.social3_link }}">
-                                  <i class="fa fa-{{ .Params.social3_title }}"></i></a></li>
-                                  <li class="linkedin"><a target="_blank" href="{{ .Params.social4_link }}"><i class="fa fa-{{ .Params.social4_title }}"></i></a></li>
-
-                                </ul>
-                                <div class="separator-2"></div>
-                                <ul class="list-icons">
-                                  <li><a href="mailto:gener8@greenitglobe.com"><i class="fa fa-envelope-o pr-10"></i>{{ .Params.email }}</a></li>
-                                </ul>
-                              </div>
-                            </div>
-                          {{ end }}
-                        {{ end }}
-                    {{ end }}
-                  </div>
-                </div>
-              </div>
+<footer id="footer" class="clearfix ">
+    <div class="footer">
+      <div class="container">
+        <div class="footer-inner">
+          <div class="row">
+            <div class="col-md-3">
+              <h2 class="title">Site map</h2>
+              <div class="separator-2"></div>
+              <ul class="list">
+                  <li><a href="/"><i class="icon-right-open"></i>Home</a></li>
+                  <li><a href="/it-as-energy"><i class="icon-right-open"></i>IT as Energy</a></li>
+              </ul>
+              <h6>Gener8</h6>
+                <ul class="list">
+                  <li><a href="/gener8"><i class="icon-right-open"></i>IT Building Blocks</a></li>
+                </ul>
+                <h6>Our Magic</h6>
+                  <ul class="list">
+                    <li><a href="/remove-complexity"><i class="icon-right-open"></i>Remove Complexity</a></li>
+                  </ul>
             </div>
+            <div class="col-md-3">
+              <h6 style="padding-top: 40px;">How it Works</h6>
+                <ul class="list">
+                  <li><a href="/#how-it-works"><i class="icon-right-open"></i>How it Works</a></li>
+                </ul>
+                <ul class="list">
+                  <h6>Company</h6>
+                  <li><a href="/contactus"><i class="icon-right-open"></i>Contact us</a></li>
+                  <li><a href="/news"><i class="icon-right-open"></i>News</a></li>
+                  <!-- <li><a href="/team"><i class="icon-right-open"></i>Team</a></li> -->
+                  <li><a href="/white-papers/"><i class="icon-right-open"></i>White Papers</a></li>
+
+                </ul>
+            </div>
+
             {{ range $element :=  $.Site.Pages }}
               {{ if eq .Section "home" }}
                   {{ if eq .Title "footer_box" }}
-                    <div class="subfooter">
-                      <div class="container">
-                        <div class="subfooter-inner">
-                          <div class="row">
-                            <div class="col-md-12">
-                              <p class="text-center">{{ .Params.copy_right }}</p>
-                            </div>
-                          </div>
-                        </div>
+                    <div class="col-md-6">
+                      <div class="footer-content">
+                        <h2 class="title">{{ .Params.header }}</h2>
+                        <div class="separator-2"></div>
+                        <p>{{ .Params.summary }}</p>
+                        <ul class="social-links circle animated-effect-1">
+                          <li class="facebook"><a target="_blank" href="{{ .Params.social1_link }}"><i class="fa fa-{{ .Params.social1_title }}"></i></a></li>
+                          <li class="twitter"><a target="_blank" href="{{ .Params.social2_link }}"><i class="fa fa-{{ .Params.social2_title }}"></i></a></li>
+                          <li class="googleplus"><a target="_blank" href="{{ .Params.social3_link }}">
+                          <i class="fa fa-{{ .Params.social3_title }}"></i></a></li>
+                          <li class="linkedin"><a target="_blank" href="{{ .Params.social4_link }}"><i class="fa fa-{{ .Params.social4_title }}"></i></a></li>
+
+                        </ul>
+                        <div class="separator-2"></div>
+                        <ul class="list-icons">
+                          <li><a href="mailto:gener8@greenitglobe.com"><i class="fa fa-envelope-o pr-10"></i>{{ .Params.email }}</a></li>
+                        </ul>
                       </div>
                     </div>
                   {{ end }}
                 {{ end }}
             {{ end }}
-        </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ range $element :=  $.Site.Pages }}
+      {{ if eq .Section "home" }}
+          {{ if eq .Title "footer_box" }}
+            <div class="subfooter">
+              <div class="container">
+                <div class="subfooter-inner">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <p class="text-center">{{ .Params.copy_right }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          {{ end }}
+        {{ end }}
+    {{ end }}
+</footer>
