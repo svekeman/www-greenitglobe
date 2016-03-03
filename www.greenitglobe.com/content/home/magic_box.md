@@ -20,6 +20,6 @@ block3_text = "Our Gener8 systems are directly installed as hyperconverged or hy
 block3_link = "remove-complexity"
 
 block4_title = "Lowest Energy Consumption"
-block4_text = "Running our unique algoritms in combination with eliminating IT layers results in 10x power savings. Get immediate access to your IT capacity with an absolute minimal need for power."
+block4_text = "Running our unique algorithms in combination with eliminating IT layers results in 10x power savings. Get immediate access to your IT capacity with an absolute minimal need for power."
 block4_link = "remove-complexity"
 +++
