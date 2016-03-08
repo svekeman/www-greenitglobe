@@ -3,7 +3,7 @@ http://new-gig.aydo.com:8080 {
     gzip
     root www.greenitglobe.com
     git {
-       repo git@git.aydo.com:static-websites/new-gig.git
+       repo git@github.com:0-complexity/www-greenitglobe.git
        interval 300
        key ../keys/id_rsa
        path ../
