@@ -4,6 +4,7 @@ http://new-gig.aydo.com:8080 {
     root www.greenitglobe.com
     git {
        repo git@github.com:0-complexity/www-greenitglobe.git
+       branch master
        interval 300
        key ../keys/id_rsa
        path ../
