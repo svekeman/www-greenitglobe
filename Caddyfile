@@ -1,17 +1,12 @@
-http://www.greenitglobe.com:84, http://greenitglobe.com:84 {
-bind 0.0.0.0
-gzip
+http://new-gig.aydo.com:8080 {
+    bind 0.0.0.0
+    gzip
     root www.greenitglobe.com
-
     git {
-        repo git@github.com:0-complexity/www-greenitglobe.git
-        branch production
-        interval 300
-        key ../keys/id_rsa
-        path ../
-        then ./hugo-init
+       repo git@github.com:0-complexity/www-greenitglobe.git
+       interval 300
+       key ../keys/id_rsa
+       path ../
+       then hugo -s www.greenitglobe.com
     }
 }
-
-    Status API Training Shop Blog About Pricing 
-
