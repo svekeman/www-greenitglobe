@@ -4,11 +4,19 @@ gzip
     root www.greenitglobe.com
 
     git {
+<<<<<<< HEAD
         repo git@github.com:0-complexity/www-greenitglobe.git
         branch production
         interval 300
         key ../keys/id_rsa
         path ../
         then hugo -s www.greenitglobe.com
+=======
+       repo git@github.com:0-complexity/www-greenitglobe.git
+       interval 300
+       key ../keys/id_rsa
+       path ../
+       then hugo -s www.greenitglobe.com
+>>>>>>> master
     }
 }
