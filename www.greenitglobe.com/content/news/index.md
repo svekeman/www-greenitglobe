@@ -20,7 +20,7 @@ Our racks are different from existing cloud technology - in particular our syste
 
 The result is a dramatically improved efficiency and performance for our racks versus existing systems.  Our racks produce much greater capacity - at much lower cost - than other cloud technology.  Also our racks require 1/10th the power of existing hyperscale and other solutions.
 
-# The Internet has a problem. 
+### The Internet has a problem. 
 
 Demand for IT capacity is far outstripping the available cloud capacity due to new applications like Big Data, IoT and Artificial Intelligence. The existing hyperscale cloud architecture can not cope with this outsize demand as the requirements for land, power and funding are just too great.
 
