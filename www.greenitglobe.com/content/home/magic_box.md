@@ -15,8 +15,8 @@ block2_title = "Better Usage Of Hardware Capabilities"
 block2_text = "Green IT Globe optimizes the use of new hardware capabilities: 56 GbE network, remote data memory access (RDMA), flash SSD, latest generation CPU. Resulting in more performance at a lower cost."
 block2_link = "remove-complexity"
 
-block3_title = "Bare Metal IT Capacity"
-block3_text = "Our Gener8 systems are directly installed as hyperconverged or hyperdense generators with petabytes of storage and compute capacity, directly injected into your secure networks."
+block3_title = "Edge Network"
+block3_text = "Our cloud units are generated near end users, minimising latency and access costs resulting in an excellent end user experience."
 block3_link = "remove-complexity"
 
 block4_title = "Lowest Energy Consumption"
