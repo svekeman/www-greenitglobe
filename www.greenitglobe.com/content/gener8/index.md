@@ -12,8 +12,6 @@ Going from a small environment for couple of virtual machines to a 10 petabyte a
 Our racks instantly provide IT infrastructure produced as cloud units. 
 Combining cloud units provide you with scale-out capacity for storage, compute and performance.
 
-This allows you to build your own Amazon cloud.
-
 - Our hyperconverged racks provision has both fast storage and dense compute capacity for heavy IT production workloads.
 - Our units are agnostic to used technology, you can use this to provison high performance virtual machines, secure virtual datacenters or desktops. All is possible.  
 
