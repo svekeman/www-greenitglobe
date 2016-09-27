@@ -23,7 +23,7 @@ We easily fit 1.5 petabyte of storage in a single rack. This compares to capacit
 * 56 Gbit/sec ethernet
 * 2.000 MB/sec ingest speed
 * 1.000.000 IOPs (IO Operations Per Second)
-* Height of building block is 140cm
+* Rack mountable system
 
 ### Compute and Transaction Units
 
@@ -31,12 +31,12 @@ Our hyperconverged racks provision has both fast storage and dense compute capac
 
 #### Technical
 
-* 1980 net usable GB memory
-* 288 logical CPU cores
-* 180 TB Ultra High Performance Embedded SSD
+* 8000 net usable GB memory
+* 500 logical CPU cores
+* 250TB Ultra High Performance Embedded SSD
 * 56 gbit/sec internal network backplane
 * 1.000.000 IOPs (IO Operations Per Second)
-* Height of building block is 140cm
+* Rack mountable system
 
 <style type="text/css">
 .gener8Logo {margin: -15px 0 0 0;}
