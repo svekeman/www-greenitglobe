@@ -4,7 +4,7 @@ title = "howitworks_box"
 
 header = "What it does."
 
-summary = "Archive, Blockchain,  Databases, Dockers and virtual desktops and servers.  Cloud units can be combined to create any IT architecture  in an easy, reliable and scalable manner."
+summary = "Archive, blockchain, databases, Docker and virtual servers.  Cloud units can be combined to create any IT architecture in an easy, reliable and scalable manner."
 
 +++
 
