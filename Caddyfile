@@ -1,4 +1,4 @@
-http://www.greenitglobe.com:84, http://greenitglobe.com:84 {
+http://www.new-gig.aydo.com:8080, http://new-gig.aydo.com:8080 {
 bind 0.0.0.0
 gzip
     root www.greenitglobe.com/en
@@ -7,8 +7,8 @@ gzip
         repo git@github.com:0-complexity/www-greenitglobe.git
         branch production
         interval 300
-        key ../keys/id_rsa
+        key ${HOME}/.ssh/id_rsa
         path ../../
-        then hugo -s www.greenitglobe.com
+        then hugo -s www.new-gig.aydo.com
     }
 }
