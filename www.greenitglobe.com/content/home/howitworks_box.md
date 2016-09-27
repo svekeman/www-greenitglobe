@@ -2,9 +2,9 @@
 #Don't remove title!
 title = "howitworks_box"
 
-header = "How It Works"
+header = "What it does."
 
-summary = "Gener8 are building blocks to instantly create IT infrastructure and secure storage capacity. Combining and stacking the building blocks provide you with scale-out capability for both storage and compute capacity. Gener8 can also be used as stand-alone IT system in a hyperdense, silent and power-saving form factor."
+summary = "Archive, Blockchain,  Databases, Dockers and virtual desktops and servers.  Cloud units can be combined to create any IT architecture  in an easy, reliable and scalable manner."
 
 +++
 
