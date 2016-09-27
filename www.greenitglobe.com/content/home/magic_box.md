@@ -4,7 +4,7 @@ title = "magic_box"
 
 header = "Magic"
 
-summary = "IT as Energy is about making IT a true commodity. Green IT Globe takes a disruptive approach through elimination, simplification and using tech innovations to build our Gener8 products."
+summary = "IT as Energy is about making IT a true commodity. Green IT Globe takes a disruptive approach through elimination, simplification and using tech innovations."
 
 
 block1_title = "Eliminate Complexity and Obsolete IT Layers"
