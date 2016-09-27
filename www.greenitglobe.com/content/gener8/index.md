@@ -8,7 +8,7 @@ Our racks instantly provide IT infrastructure produced as cloud units. Combining
 
 ### Storage Units
 
-We easily fit 1.5 petabyte of storage in a single rack. This compares to capacity needed for 350,000 DVD movies, 500,000,000 high definition pictures and thousands of hours surveillance camera storage.
+We easily fit 4 petabyte of storage in a single rack. This compares to capacity needed for 350,000 DVD movies, 500,000,000 high definition pictures and thousands of hours surveillance camera storage.
 
 * Petabyte archive building block, no limits to scalability
 * Power-friendly, extreem low electrivity requirement
@@ -18,7 +18,7 @@ We easily fit 1.5 petabyte of storage in a single rack. This compares to capacit
 
 #### Technical
 
-* 1.5 PB
+* 4 PB
 * NAS & SAN Interface
 * 56 Gbit/sec ethernet
 * 2.000 MB/sec ingest speed
