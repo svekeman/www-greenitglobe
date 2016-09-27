@@ -13,7 +13,7 @@ slide2_link = "/it-as-energy/"
 slide2_image = "/images/slider2.jpg"
 
 slide3_title = "IT as Energy Guarantees Your Security"
-slide3_text = "Generating your IT with 100% control and 0% vulnerability to any breach."
+slide3_text = "Independent, distributed, geographically redundant."
 slide3_link = "/it-as-energy/"
 slide3_image = "/images/slider3.jpg"
 
@@ -24,7 +24,7 @@ slide4_link = "/it-as-energy/"
 slide4_image = "/images/slider4.jpg"
 
 slide5_title = "IT as Energy is Absolutely Green"
-slide5_text = "Not generating carbon emissions. Most energy-friendly IT on the planet."
+slide5_text = "10x less power for storage."
 slide5_link = "/it-as-energy/"
 slide5_image = "/images/slider5.jpg"
 +++

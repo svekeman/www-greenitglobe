@@ -2,23 +2,23 @@
 #Don't remove title!
 title = "whatis_box"
 
-header = "Gener8"
+header = "Building Blocks"
 
-summary = "Gener8 is your Generator for sustainable IT. Ultra-reliable building blocks for large digital archives and high-performance compute capacity generated as Energy."
+summary = "IT capacity building blocks that combine to run any workload."
 
-block1_title_strong = "Gener8-PB"
+block1_title_strong = "Storage Units"
 block1_title = "IT as Energy"
-block1_text = "Your Petabyte storage building blocks to scale extreme large digital archives. Our storage generators have the lowest carbon footprint in the world."
+block1_text = "Our storage units scale to multi-Petabyte digital archives at extremely low cost.  "
 block1_link = "gener8"
 
-block2_title_strong = "Gener8-HC"
+block2_title_strong = "Transaction Units"
 block2_title = "IT as Energy"
-block2_text = "Your HyperConverged IT building block to run high-performance storage and virtualized compute workloads. Turnkey solution for all your IT infrastructure."
+block2_text = "Our transaction units power high performance applications - one rack starts at 1,000,000 IOPS"
 block2_link = "gener8"
 
-block3_title_strong = "Gener8-HD"
+block3_title_strong = "Compute Units"
 block3_title = "IT as Energy"
-block3_text = "Your HyperDense IT delivered as stand-alone box with minimal power footprint and the highest possible uptime. Can run anywhere in the world."
+block3_text = "Our compute units run complex IT processes extremely efficiently - minimizing leakage and waste"
 block3_link = "gener8"
 
 +++
