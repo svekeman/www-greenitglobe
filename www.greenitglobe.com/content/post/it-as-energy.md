@@ -3,7 +3,7 @@
 title = "IT As Energy"
 +++
 
-#IT equals Energy
+##IT equals Energy
 
 Energy was the primary driver for the industrial revolution(s). We believe that IT Capacity will be the energy source that drives the next industrial revolution - hence IT = Energy.
 
