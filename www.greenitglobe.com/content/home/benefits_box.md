@@ -4,7 +4,7 @@ title = "benefits_box"
 
 header = "BENEFITS"
 
-summary = "IT as Energy takes a fundamental different approach in providing reliable, scalable and secure IT that requires a lot of capacity and performance. Gener8 provides you with these benefits:" 
+summary = "IT as Energy takes a fundamental different approach in providing reliable, scalable and secure IT that requires a lot of capacity and performance." 
 
 benefit1_title = "Lowest TCO"
 benefit1_text = "The all-in and long-term cost is merely 80% less than any other solution from eliminating integrated technology layers and freeing up your resources to do IT innovation."
@@ -15,7 +15,7 @@ benefit2_text = "No need to add more expensive hardware to scale capacity or per
 benefit2_link = "benefits/scalability"
 
 benefit3_title = "Self-Healing IT"
-benefit3_text = "Gener8 is a software defined solution with embedded self healing capability. Our algorithms detect and prevent possible failures and regenerate your IT workloads on the fly."
+benefit3_text = "Cloud units are software defined with self healing capabilities. Our algorithms detect and prevent possible failures and regenerate your IT workloads on the fly."
 benefit3_link = "benefits/scalability"
 
 benefit4_title = "Complete Control"
