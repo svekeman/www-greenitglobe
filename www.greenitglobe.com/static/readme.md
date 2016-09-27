@@ -1,1 +1,2 @@
 # Static folder
+# Static folder
