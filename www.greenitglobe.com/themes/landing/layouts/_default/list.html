@@ -12,6 +12,24 @@
 	.media .media-body{
 		padding-left: 10px;
 	}
+	.holder{
+		margin: 50px 0;
+	}
+	.holder p{
+		display: inline-block;
+		width:65%;
+	}
+	.center{
+		text-align: center;
+	}
+	.center img{
+		display: inline-block;
+		border-radius: 100%;
+	}
+	.branHolder{
+		background-color:rgba(74, 162, 77, 0.07);
+		padding: 30px 0;
+	}
 </style>
 	<body class="no-trans front-page transparent-header ">
 	    <div class="scrollToTop circle"><i class="icon-up-open-big"></i></div>
@@ -39,8 +57,86 @@
 								</div>
 								<hr />
 							{{end}}
-						{{ end }}
+							{{ if eq .Title "jobs" }}
+								<div class="holder center">
+									<h2>{{ .Params.header }}</h2>
+									<p>{{ .Params.text }}</p>
+								</div>
+								<div class="center">
+							    <div class="row">
+							      <div class="col-md-4">
+							        <img alt="" src="{{ .Params.block1_image }}">
+							        <h3>{{ .Params.block1_header }}</h3>
+							        <p>{{ .Params.block1_text }} <a href="{{ .Params.block1_link }}">discover our offer.</a></p>
+							      </div>
+							      <div class="col-md-4">
+											<img alt="" src="{{ .Params.block2_image }}">
+							        <h3>{{ .Params.block2_header }}</h3>
+							        <p>{{ .Params.block2_text }}&nbsp;<a href="{{ .Params.block2_link }}">Find out more.</a>&nbsp;<br></p>
+							      </div>
+							      <div class="col-md-4">
+											<img alt="" src="{{ .Params.block3_image }}">
+							        <h3>{{ .Params.block3_header }}</h3>
+							        <p>{{ .Params.block3_text }}&nbsp;<br>
+							          <a href="{{ .Params.block3_link }}">A sneak preview of your first month at Teamleader.</a></p>
+							      </div>
+							    </div>
+							  </div>
+							{{end}}
+							{{end}}
+						</div>
 					</div>
+					<div class="branHolder">
+						<div class="container">
+							{{ range .Data.Pages }}
+								{{ if eq .Title "branches" }}
+								<div class="row">
+									<div class="col-md-6">
+										<h3>Do you want to work in <strong>{{ .Params.branch1_name }}</strong>?</h3>
+										<p>Development</p>
+										<ul>
+											<li>
+												<a href="http://www.teamleader.eu/en/job-overview#op-90616-php-fullstack-developer">PHP Full-Stack Developer</a></li>
+											<li>
+												<a href="http://www.teamleader.eu/en/job-overview#op-90617-senior-php-backend-developer">PHP Back-end Developer</a></li>
+											<li>
+												<a href="http://www.teamleader.eu/en/job-overview#op-137474-senior-javascript-developer-react">Senior Javascript Developer (React)</a>
+											</li>
+										</ul>
+
+										<p>Product</p>
+
+										<ul>
+											<li>
+												<a href="http://www.teamleader.eu/en/job-overview#op-90662-product-designer">Product Designer</a></li>
+											<li>
+												<a href="http://www.teamleader.eu/en/job-overview#op-110563-product-owner">Product Owner</a></li>
+										</ul>
+									</div>
+								<div class="col-md-6">
+									<h3>Do you want to work in <strong>{{ .Params.branch2_name }}</strong>?</h3>
+									<ul>
+										<li>
+											<a href="http://www.teamleader.eu/en/job-overview#op-65079-sales-executive-">Sales Manager</a></li>
+										<li>
+											<a href="http://www.teamleader.eu/en/job-overview#op-104877-inside-sales-manager-de">Inside Sales Manager</a></li>
+									</ul>
+									<h3>Do you want to work in <strong>{{ .Params.branch3_name }}</strong>?</h3>
+									<ul>
+										<li>
+											<a href="http://www.teamleader.eu/en/job-overview#op-73333-sales-talent">Sales Talent</a></li>
+										<li>
+											<a href="http://www.teamleader.eu/en/job-overview#op-65628-sales-consultant">Sales Consultant</a></li>
+										<li>
+											<a href="http://www.teamleader.eu/en/job-overview#op-116368-customer-success-professional-nl">Customer Success Professional&nbsp;</a></li>
+										<li>
+											<a href="http://www.teamleader.eu/en/job-overview#op-127671-product-designer">Product Designer</a></li>
+									</ul>
+								</div>
+								</div>
+							</div>
+								{{end}}{{end}}
+						</div>
 				</div>
 			</div>
 			{{ partial "footer.html" . }}
